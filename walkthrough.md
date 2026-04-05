@@ -1,5 +1,9 @@
 # Maintenance Walkthrough - 2026-04-05
 
+- Closed issues `#455` and `#456` with maintainer comments explaining what a follow-up submission must include before reopening:
+  - concrete repo diff or implementation PR
+  - source-only contributor branch
+  - Quality Bar checklist and maintainer validations from `.github/MAINTENANCE.md`
 - Reviewed open issues `#455` and `#456` during the maintainer sweep; neither had a matching accepted PR and both remain open pending a source-quality contributor submission.
 - Triaged PR `#454` as superseded by `#457` because `#457` rebuilds the Windows validation/test fixes on top of current `main` and includes the follow-up batch activation fix requested in review.
 - Verified PR `#457` locally on the contributor head with:
