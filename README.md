@@ -40,7 +40,7 @@ You can use this repo to install a broad multi-tool skill library, start from ro
 - [Quick FAQ](#quick-faq)
 - [Best Skills By Tool](#best-skills-by-tool)
 - [Bundles & Workflows](#bundles--workflows)
-- [Browse 1,340+ Skills](#browse-1340-skills)
+- [Browse 1,409+ Skills](#browse-1409-skills)
 - [Troubleshooting](#troubleshooting)
 - [Support the Project](#support-the-project)
 - [Contributing](#contributing)
