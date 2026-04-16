@@ -143,8 +143,8 @@ steps:
 
 ## Related Skills
 
-- `@docker-optimizer` - Use when building containerized development environments
+- `@docker-expert` - Use when building containerized development environments
     
-- `@github-actions-generator` - Use for advanced workflow automation
+- `@github-actions-templates` - Use for advanced workflow automation
     
-- `@monorepo-bootstrapper` - Use for large multi-package repositories
+- `@monorepo-architect` - Use for large multi-package repositories
