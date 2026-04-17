@@ -4,7 +4,6 @@ description: "Generate production-ready mise.toml setups for local development, 
 category: devops
 risk: safe
 source: self
-source_repo: sickn33/antigravity-awesome-skills
 source_type: self
 date_added: "2026-04-16"
 author: community
@@ -50,8 +49,9 @@ Infer languages, package managers, and pinned versions.
 Create a minimal, valid, copy-paste-ready configuration using:
 
 - existing pinned versions when found
-- latest stable versions when absent
+- explicit user-provided target versions when absent
 - practical defaults for developer productivity
+- concrete pinned versions in shared production configs
 
 ### Step 3: Add Bootstrap Commands
 
@@ -60,7 +60,7 @@ Provide setup commands such as:
 ```bash
 mise trust
 mise install
-````
+```
 
 ### Step 4: Generate CI/CD Integration
 
@@ -72,16 +72,16 @@ If requested, generate pipeline examples using mise with caching and runtime ins
 
 ```toml
 [tools]
-node = "lts"
-pnpm = "latest"
+node = "22.11.0"
+pnpm = "9.15.0"
 ```
 
 ### Example 2: Python + GitHub Actions
 
 ```toml
 [tools]
-python = "3.12"
-poetry = "latest"
+python = "3.12.7"
+poetry = "1.8.4"
 ```
 
 ```yaml
@@ -101,6 +101,10 @@ steps:
 - ✅ Prefer stable runtime releases
     
 - ✅ Generate CI examples with caching
+
+- ✅ Ask for target versions before pinning when the repository does not already declare them
+
+- ❌ Do not use floating `latest` or `lts` aliases in shared production configs unless explicitly requested
     
 - ❌ Do not over-engineer unnecessary tool entries
     
