@@ -31,14 +31,17 @@ function formatNumber(n) {
   return n.toLocaleString("en-US");
 }
 
-function replaceOrFail(content, regex, replacement, label) {
-  const next = content.replace(regex, replacement);
+function replaceOrWarn(content, regex, replacement, label) {
+  const safeRegex = new RegExp(regex.source, regex.flags.replace("g", ""));
 
-  if (next === content) {
-    console.warn(`⚠️  Pattern not found: ${label}`);
+  const hasMatch = safeRegex.test(content);
+
+  if (!hasMatch) {
+    console.warn(`⚠️ Pattern not found: ${label}`);
+    return content;
   }
 
-  return next;
+  return content.replace(regex, replacement);
 }
 
 if (!fs.existsSync(README_PATH)) {
@@ -55,20 +58,20 @@ const count = countSkills(SKILLS_DIR);
 const formatted = formatNumber(count);
 
 let readme = fs.readFileSync(README_PATH, "utf8");
-readme = replaceOrFail(
+readme = replaceOrWarn(
   readme,
   /skills=\d+/,
   `skills=${count}`,
   "registry-sync comment"
 );
 
-readme = replaceOrFail(
+readme = replaceOrWarn(
   readme,
   /(# 🌌 Antigravity Awesome Skills:\s*)[\d,]+\+/,
   `$1${formatted}+`,
   "main title"
 );
-readme = replaceOrFail(
+readme = replaceOrWarn(
   readme,
   /(Installable GitHub library of )[\d,]+\+/,
   `$1${formatted}+`,
