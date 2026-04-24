@@ -6466,6 +6466,28 @@
     }
   },
   {
+    "id": "bulletmind",
+    "path": "skills/bulletmind",
+    "category": "writing",
+    "name": "bulletmind",
+    "description": "Convert input into clean, structured, hierarchical bullet points for summarization, note-taking, and structured thinking.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-04-21",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "bullmq-specialist",
     "path": "skills/bullmq-specialist",
     "category": "framework",

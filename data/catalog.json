@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-02-08T00:00:00.000Z",
-  "total": 1434,
+  "total": 1435,
   "skills": [
     {
       "id": "00-andruia-consultant",
@@ -7273,6 +7273,34 @@
         "components"
       ],
       "path": "skills/building-native-ui/SKILL.md"
+    },
+    {
+      "id": "bulletmind",
+      "name": "bulletmind",
+      "description": "Convert input into clean, structured, hierarchical bullet points for summarization, note-taking, and structured thinking.",
+      "category": "general",
+      "tags": [
+        "writing",
+        "summarization",
+        "note-taking",
+        "formatting",
+        "structured-output"
+      ],
+      "triggers": [
+        "writing",
+        "summarization",
+        "note-taking",
+        "formatting",
+        "structured-output",
+        "bulletmind",
+        "convert",
+        "input",
+        "clean",
+        "structured",
+        "hierarchical",
+        "bullet"
+      ],
+      "path": "skills/bulletmind/SKILL.md"
     },
     {
       "id": "bullmq-specialist",

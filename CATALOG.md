@@ -2,7 +2,7 @@
 
 Generated at: 2026-02-08T00:00:00.000Z
 
-Total skills: 1434
+Total skills: 1435
 
 ## architecture (95)
 
@@ -681,7 +681,7 @@ Total skills: 1434
 | `zod-validation-expert` | Expert in Zod — TypeScript-first schema validation. Covers parsing, custom errors, refinements, type inference, and integration with React Hook Form, Next.js... | zod, validation | zod, validation, typescript, first, schema, covers, parsing, custom, errors, refinements, type, inference |
 | `zustand-store-ts` | Create Zustand stores following established patterns with proper TypeScript types and middleware. | zustand, store, ts | zustand, store, ts, stores, following, established, proper, typescript, types, middleware |
 
-## general (346)
+## general (347)
 
 | Skill | Description | Tags | Triggers |
 | --- | --- | --- | --- |
@@ -724,6 +724,7 @@ Total skills: 1434
 | `brand-perception-psychologist` | One sentence - what this skill does and when to invoke it | brand, perception, psychologist | brand, perception, psychologist, one, sentence, what, skill, does, invoke |
 | `bug-hunter` | Systematically finds and fixes bugs using proven debugging techniques. Traces from symptoms to root cause, implements fixes, and prevents regression. | bug, hunter | bug, hunter, systematically, finds, fixes, bugs, proven, debugging, techniques, traces, symptoms, root |
 | `build` | build | build | build |
+| `bulletmind` | Convert input into clean, structured, hierarchical bullet points for summarization, note-taking, and structured thinking. | writing, summarization, note-taking, formatting, structured-output | writing, summarization, note-taking, formatting, structured-output, bulletmind, convert, input, clean, structured, hierarchical, bullet |
 | `busybox-on-windows` | How to use a Win32 build of BusyBox to run many of the standard UNIX command line tools on Windows. | busybox, on, windows | busybox, on, windows, how, win32, run, many, standard, unix, command, line |
 | `c-pro` | Write efficient C code with proper memory management, pointer | c | c, pro, write, efficient, code, proper, memory, pointer |
 | `canvas-design` | These are instructions for creating design philosophies - aesthetic movements that are then EXPRESSED VISUALLY. Output only .md files, .pdf files, and .png f... | canvas | canvas, these, instructions, creating, philosophies, aesthetic, movements, then, expressed, visually, output, md |

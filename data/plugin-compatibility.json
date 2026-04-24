@@ -5502,6 +5502,25 @@
       "runtime_files": []
     },
     {
+      "id": "bulletmind",
+      "path": "skills/bulletmind",
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [],
+      "blocked_reasons": {
+        "codex": [],
+        "claude": []
+      },
+      "runtime_files": []
+    },
+    {
       "id": "bullmq-specialist",
       "path": "skills/bullmq-specialist",
       "targets": {
@@ -27420,10 +27439,10 @@
     }
   ],
   "summary": {
-    "total_skills": 1434,
+    "total_skills": 1435,
     "supported": {
-      "codex": 1403,
-      "claude": 1418
+      "codex": 1404,
+      "claude": 1419
     },
     "blocked": {
       "codex": 31,
