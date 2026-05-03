@@ -9,6 +9,12 @@ Create a clean, objective pull request description by analyzing commit history b
 
 ---
 
+## When to Use
+
+Use this skill when you need to generate a structured pull request description based on commit history, especially for maintaining consistency and reducing manual effort.
+
+---
+
 ## Strategy (Token Efficient)
 
 1. DO NOT scan full diffs initially
@@ -125,6 +131,15 @@ Only if relevant:
 - No fluff
 - No emojis
 - No generic phrases ("this PR does...")
+
+---
+
+## Limitations
+
+- Relies on commit message quality; vague commits may reduce accuracy
+- Does not deeply analyze code changes unless necessary
+- Grouping heuristics may not perfectly reflect complex feature boundaries
+- Assumes a relatively clean commit history without excessive noise
 
 ---
 
