@@ -6356,6 +6356,28 @@
     }
   },
   {
+    "id": "brooks-lint",
+    "path": "skills/brooks-lint",
+    "category": "development",
+    "name": "brooks-lint",
+    "description": "AI code reviewer grounded in classic software engineering books for catching design smells, coupling issues, and architectural risks.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-04-29",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "browser-automation",
     "path": "skills/browser-automation",
     "category": "test-automation",
@@ -6452,6 +6474,28 @@
     "risk": "unknown",
     "source": "community",
     "date_added": null,
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "bulletmind",
+    "path": "skills/bulletmind",
+    "category": "writing",
+    "name": "bulletmind",
+    "description": "Convert input into clean, structured, hierarchical bullet points for summarization, note-taking, and structured thinking.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-04-21",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -6584,6 +6628,28 @@
     "risk": "safe",
     "source": "community",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "buywhere-product-catalog",
+    "path": "skills/buywhere-product-catalog",
+    "category": "ecommerce",
+    "name": "buywhere-product-catalog",
+    "description": "Use BuyWhere's MCP and API surfaces to add product search, price comparison, and deal discovery to AI shopping agents.",
+    "risk": "safe",
+    "source": "official",
+    "date_added": "2026-04-29",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -13098,6 +13164,28 @@
     }
   },
   {
+    "id": "frontend-api-integration-patterns",
+    "path": "skills/frontend-api-integration-patterns",
+    "category": "frontend",
+    "name": "frontend-api-integration-patterns",
+    "description": "Production-ready patterns for integrating frontend applications with backend APIs, including race condition handling, request cancellation, retry strategies, error normalization, and UI state management.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-04-23",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "frontend-design",
     "path": "skills/frontend-design",
     "category": "front-end",
@@ -16686,6 +16774,50 @@
     }
   },
   {
+    "id": "kubestellar-console",
+    "path": "skills/kubestellar-console",
+    "category": "devops",
+    "name": "kubestellar-console",
+    "description": "Multi-cluster Kubernetes dashboard with AI-powered operations via MCP server and 10+ built-in agent skills",
+    "risk": "critical",
+    "source": "community",
+    "date_added": "2026-04-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "manual",
+        "summary": "Requires kc-agent binary (brew tap kubestellar/tap && brew install kc-agent)",
+        "docs": "https://github.com/kubestellar/console#quick-start"
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "lambda-lang",
+    "path": "skills/lambda-lang",
+    "category": "ai-agents",
+    "name": "lambda-lang",
+    "description": "Native agent-to-agent language for compact multi-agent messaging. A shared tongue agents speak directly, not a translation layer. 340+ atoms across 7 domains; 3x smaller than natural language.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-04-24",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "lambdatest-agent-skills",
     "path": "skills/lambdatest-agent-skills",
     "category": "testing",
@@ -17636,6 +17768,28 @@
     }
   },
   {
+    "id": "logic-lens",
+    "path": "skills/logic-lens",
+    "category": "development",
+    "name": "logic-lens",
+    "description": "AI-powered Claude Code skill that performs deep code review using formal logic and reasoning frameworks to detect bugs, anti-patterns, and security risks beyond what linters catch.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-04-29",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "logistics-exception-management",
     "path": "skills/logistics-exception-management",
     "category": "uncategorized",
@@ -18237,8 +18391,8 @@
     "category": "ai-ml",
     "name": "manage-skills",
     "description": "Discover, list, create, edit, toggle, copy, move, and delete AI agent skills across 11 tools (Cursor, Claude, Agents, Windsurf, Copilot, Codex, Cline, Aider, Continue, Roo Code, Augment)",
-    "risk": "unknown",
-    "source": "unknown",
+    "risk": "critical",
+    "source": "community",
     "date_added": null,
     "plugin": {
       "targets": {
@@ -26305,6 +26459,28 @@
     }
   },
   {
+    "id": "skyvern-browser-automation",
+    "path": "skills/skyvern-browser-automation",
+    "category": "browser-automation",
+    "name": "skyvern-browser-automation",
+    "description": "AI-powered browser automation \u2014 navigate sites, fill forms, extract structured data, log in with stored credentials, and build reusable workflows.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-04-23",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "slack-automation",
     "path": "skills/slack-automation",
     "category": "automation",
@@ -26801,6 +26977,28 @@
     "risk": "critical",
     "source": "community",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "squirrel",
+    "path": "skills/squirrel",
+    "category": "development",
+    "name": "squirrel",
+    "description": "Full-cycle AI coding skill: plans, builds, tests, lints, fixes bugs, and writes production-grade docs. Auto-detects project state and adapts its 8-phase pipeline.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-04-29",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -29411,6 +29609,28 @@
     }
   },
   {
+    "id": "unslop",
+    "path": "skills/unslop",
+    "category": "writing",
+    "name": "unslop",
+    "description": "Post-process AI-generated text through the unslop CLI to strip AI writing patterns before publishing",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-04-25",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "unsplash-integration",
     "path": "skills/unsplash-integration",
     "category": "api-integration",
@@ -30827,10 +31047,10 @@
     "path": "skills/wordpress-centric-high-seo-optimized-blogwriting-skill",
     "category": "content",
     "name": "wordpress-centric-high-seo-optimized-blogwriting-skill",
-    "description": "Use this skill when the user asks to write a blog post, article, or SEO content. This applies a professional structure, truth boxes, click-bait-free accurate information, and outputs direct WordPress-ready content.",
-    "risk": "unknown",
-    "source": "unknown",
-    "date_added": null,
+    "description": "Create long-form, high-quality, SEO-optimized blog posts ready for WordPress with truth boxes and FAQ schema.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": "2026-04-12",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -31132,12 +31352,12 @@
   },
   {
     "id": "x402-express-wrapper",
-    "path": "skills/skills/x402-express-wrapper",
+    "path": "skills/x402-express-wrapper",
     "category": "backend",
     "name": "x402-express-wrapper",
     "description": "Wrapper oficial de M2MCent (Node.js) para inyectar muros de pago x402 en APIs o servidores Model Context Protocol (MCP). Usar al construir nuevos servicios que requieran monetizaci\u00f3n m\u00e1quina a m\u00e1quina.",
-    "risk": "unknown",
-    "source": "unknown",
+    "risk": "critical",
+    "source": "community",
     "date_added": null,
     "plugin": {
       "targets": {
@@ -31443,9 +31663,9 @@
     "path": "skills/zipai-optimizer",
     "category": "agent-behavior",
     "name": "zipai-optimizer",
-    "description": "Adaptive token optimizer: intelligent filtering, surgical output, ambiguity-first, context-window-aware, VCS-aware.",
+    "description": "Adaptive token optimizer: intelligent filtering, surgical output, ambiguity-first, context-window-aware, VCS-aware, MCP-aware.",
     "risk": "safe",
-    "source": "unknown",
+    "source": "community",
     "date_added": null,
     "plugin": {
       "targets": {

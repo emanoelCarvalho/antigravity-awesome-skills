@@ -11,6 +11,130 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - _No unreleased changes yet._
 
+## [10.8.0] - 2026-04-29 - "Kubernetes, Commerce, Code Review, and Full-Cycle Development"
+
+> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.
+
+Start here:
+
+- Install: `npx antigravity-awesome-skills`
+- Choose your tool: [README -> Choose Your Tool](https://github.com/sickn33/antigravity-awesome-skills#choose-your-tool)
+- Best skills by tool: [README -> Best Skills By Tool](https://github.com/sickn33/antigravity-awesome-skills#best-skills-by-tool)
+- Bundles: [docs/users/bundles.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/bundles.md)
+- Workflows: [docs/users/workflows.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/workflows.md)
+
+This release merges PRs #556, #561, #562, and #564 through the maintainer squash-merge workflow, with fork-run approval, source provenance cleanup, contributor credit sync, and generated-state refreshes on `main`. It adds Kubernetes/MCP operations, commerce-agent product catalog onboarding, two code-review skills, and a full-cycle development workflow.
+
+## New Skills
+
+- **kubestellar-console** - multi-cluster Kubernetes dashboard guidance for KubeStellar Console and `kc-agent`, with critical-risk RBAC notes for agent access to kubeconfig.
+- **logic-lens** - formal-logic code review workflow for bugs, race conditions, security issues, boundary cases, and API contract risks.
+- **brooks-lint** - software-design code review workflow grounded in classic engineering books for architecture, coupling, naming, and stability feedback.
+- **buywhere-product-catalog** - BuyWhere MCP/API onboarding skill for product search, price comparison, and shopping-agent workflows.
+- **squirrel** - full-cycle development workflow that adapts planning, build, testing, debugging, polish, docs, and ship steps to project maturity.
+
+## Improvements
+
+- **source provenance hardening** - adds missing `source_repo`, `source_type`, license, and README source-credit coverage for the new external skills before merge.
+- **security guidance cleanup** - removes pipe-to-shell install guidance from `squirrel` and tightens the KubeStellar RBAC wording around least-privilege agent use.
+- **release-gate maintenance** - updates the Microsoft skills coverage test to ignore the newly observed upstream `entra-agent-id` collision alongside the existing known collision.
+- **generated artifact sync** - refreshes catalog, skill index, plugin mirrors, web assets, contributor credits, and visible skill counts to `1,441+`.
+
+## Who should care
+
+- **Claude Code, Cursor, Codex CLI, Gemini CLI, and Antigravity users** get five new installable skills across DevOps, ecommerce, review, and project execution.
+- **Kubernetes users** get a KubeStellar Console entrypoint with clearer agent-permission boundaries.
+- **Commerce-agent builders** get a BuyWhere integration path that starts from live onboarding surfaces and API-key hygiene.
+- **Maintainers** get another clean source-only PR batch plus a fixed external network-test gate for Microsoft skills drift.
+
+## Credits
+
+- **[@clubanderson](https://github.com/clubanderson)** for PR #556 (`kubestellar-console`).
+- **[@hyhmrright](https://github.com/hyhmrright)** for PR #561 (`logic-lens`, `brooks-lint`).
+- **[@BuyWhere](https://github.com/BuyWhere)** for PR #562 (`buywhere-product-catalog`).
+- **[@flyingsquirrel0419](https://github.com/flyingsquirrel0419)** for PR #564 (`squirrel`).
+
+## [10.7.0] - 2026-04-26 - "MCP-Aware Optimization, SEO Writing Hardening, and Unslop Cleanup"
+
+> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.
+
+Start here:
+
+- Install: `npx antigravity-awesome-skills`
+- Choose your tool: [README -> Choose Your Tool](https://github.com/sickn33/antigravity-awesome-skills#choose-your-tool)
+- Best skills by tool: [README -> Best Skills By Tool](https://github.com/sickn33/antigravity-awesome-skills#best-skills-by-tool)
+- Bundles: [docs/users/bundles.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/bundles.md)
+- Workflows: [docs/users/workflows.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/workflows.md)
+
+This release merges PRs #549, #553, and #554 with maintainer source-only enforcement, fork-run approval, contributor credit sync, and generated-state refreshes on `main`. It adds a new `unslop` prose cleanup skill, improves the WordPress/social SEO writing guidance, and upgrades `zipai-optimizer` with MCP-aware operating rules.
+
+## New Skills
+
+- **unslop** - CLI-backed prose cleanup workflow for deterministic and LLM-assisted removal of AI writing patterns before publishing.
+
+## Improvements
+
+- **zipai-optimizer v12.0** - adds review-mode output labels, MCP-aware tool usage rules, pagination safeguards, SHA discipline, and regression-risk signaling.
+- **WordPress SEO writing guidance** - clarifies source-backed market claims, Yoast/SEO output conditions, examples, best practices, and common pitfalls.
+- **social-post-writer-seo** - expands usage guidance while removing unsupported example claims from maintainer edits.
+- **source-only merge hygiene** - drops derived plugin artifact edits from contributor branches, validates changed skill files, checks README source credits, and lets `main` regenerate canonical artifacts.
+
+## Who should care
+
+- **Claude Code, Cursor, Codex CLI, Gemini CLI, and Antigravity users** get a new `unslop` workflow for final prose cleanup before docs, posts, and release notes ship.
+- **MCP-heavy agent workflows** get clearer token and tool-use discipline through the updated `zipai-optimizer`.
+- **SEO/content users** get more cautious source handling and safer publishing copy requirements.
+- **Maintainers** get another tested batch through the source-only PR merge path with generated artifacts refreshed on `main`.
+
+## Credits
+
+- **[@nickdesi](https://github.com/nickdesi)** for PR #549 (`zipai-optimizer`).
+- **[@WHOISABHISHEKADHIKARI](https://github.com/WHOISABHISHEKADHIKARI)** for PR #553 (`social-post-writer-seo`, `wordpress-centric-high-seo-optimized-blogwriting-skill`).
+- **[@MohamedAbdallah-14](https://github.com/MohamedAbdallah-14)** for PR #554 (`unslop`).
+
+## [10.6.0] - 2026-04-24 - "Agent Coordination, Browser Automation, API Integration, and Bullet Structuring"
+
+> Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.
+
+Start here:
+
+- Install: `npx antigravity-awesome-skills`
+- Choose your tool: [README -> Choose Your Tool](https://github.com/sickn33/antigravity-awesome-skills#choose-your-tool)
+- Best skills by tool: [README -> Best Skills By Tool](https://github.com/sickn33/antigravity-awesome-skills#best-skills-by-tool)
+- Bundles: [docs/users/bundles.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/bundles.md)
+- Workflows: [docs/users/workflows.md](https://github.com/sickn33/antigravity-awesome-skills/blob/main/docs/users/workflows.md)
+
+This release merges PRs #541, #545, #547, and #548 with maintainer source-only enforcement, generated-state sync, and checklist normalization for fork PRs. It adds four new skills across structured bullet formatting, frontend API integration, Skyvern browser automation, and lambda-lang agent coordination, and it patches the NotebookLM `python-dotenv` pin for Dependabot alert #40.
+
+## New Skills
+
+- **bulletmind** - scoped hierarchical bullet-formatting workflow for turning dense input into clean nested bullet structures.
+- **frontend-api-integration-patterns** - frontend API integration guidance covering typed clients, retries, cancellation, React state safety, and failure-mode handling.
+- **skyvern-browser-automation** - browser automation workflow for Skyvern-based web tasks, with usage triggers and operational limitations.
+- **lambda-lang** - native agent-to-agent coordination language workflow for structured multi-agent communication.
+
+## Improvements
+
+- **Dependabot remediation** - updates NotebookLM `python-dotenv` from `1.0.0` to `1.2.2` and keeps the local requirements documentation aligned.
+- **PR quality-gate hygiene** - refreshed fork PR branches against current `main`, normalized the Bulletmind PR body with the required Quality Bar Checklist, and reran the source-validation, artifact-preview, review, dependency, and CodeQL checks before merge.
+- **source-only merge flow** - preserved contributor merge credit through GitHub squash merges while regenerating catalog, index, plugin mirrors, web assets, and contributor state on `main`.
+- **release validation** - keeps the repository at the frozen warning budget of 16 validation warnings and confirms the web app build and npm package dry-run during preflight.
+
+## Who should care
+
+- **Frontend teams** get a new integration-patterns skill for robust API clients and UI-safe request lifecycles.
+- **Automation users** get Skyvern-oriented browser automation guidance for web workflows that need visual navigation.
+- **Agent-workflow builders** get lambda-lang coordination guidance for multi-agent handoffs.
+- **Study, notes, and writing users** get Bulletmind for reliable bullet-only structuring of dense material.
+- **Maintainers and security-conscious users** get a patched NotebookLM dependency and synchronized generated artifacts for downstream installers.
+
+## Credits
+
+- **[@tejasashinde](https://github.com/tejasashinde)** for PR #541 (`bulletmind`).
+- **[@avij1109](https://github.com/avij1109)** for PR #545 (`frontend-api-integration-patterns`).
+- **[@mark1ian](https://github.com/mark1ian)** for PR #547 (`skyvern-browser-automation`).
+- **[@voidborne-d](https://github.com/voidborne-d)** for PR #548 (`lambda-lang`).
+
 ## [10.5.0] - 2026-04-20 - "Audit Fixes, Source-Only PR Hygiene, and OpenCode Stability Guidance"
 
 > Installable skill library update for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and related AI coding assistants.
