@@ -110,6 +110,28 @@
     }
   },
   {
+    "id": "2slides-ppt-generator",
+    "path": "skills/2slides-ppt-generator",
+    "category": "api-integration",
+    "name": "2slides-ppt-generator",
+    "description": "AI-powered presentation generation via the 2slides API \u2014 create slides from text, match a reference image style, summarize documents into decks, add AI voice narration, and export pages/audio. Use for any \"make slides\", \"create a deck\", or \"slides from this document\" request.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-05",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "manual",
+        "summary": "Install Python requirements and configure a 2slides API key before running generation scripts.",
+        "docs": "SKILL.md"
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "3d-games",
     "path": "skills/game-development/3d-games",
     "category": "game-development",
@@ -118,6 +140,28 @@
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "3d-ui",
+    "path": "skills/design-it/3d-ui",
+    "category": "design-it",
+    "name": "3d-ui",
+    "description": "Web and App implementation guide for 3D UI. Trigger when user wants actual 3D objects, perspective effects, and spatial depth.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": "2026-06-17",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -206,6 +250,94 @@
     "risk": "safe",
     "source": "community",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "accesslint-audit",
+    "path": "skills/accesslint-audit",
+    "category": "web-development",
+    "name": "accesslint-audit",
+    "description": "Find and fix WCAG 2.2 accessibility issues. Two modes \u2014 report (sweep a codebase or page, produce a prioritized written report, no edits) and fix (audit\u2192edit\u2192verify loop on a target). Prefers direct-CDP live-DOM auditing; falls back to a browser-MCP composition or HTML-string audits.",
+    "risk": "safe",
+    "source": "https://github.com/AccessLint/skills",
+    "date_added": "2026-06-02",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "accesslint-diff",
+    "path": "skills/accesslint-diff",
+    "category": "uncategorized",
+    "name": "accesslint-diff",
+    "description": "Diff a live page's accessibility violations against a baseline \u2014 by default compares uncommitted changes (stash-based), or pass --branch [<name>] to diff against a branch. Reports only new violations introduced, violations fixed, and pre-existing count. Use `scan` for a full audit with no diffing.",
+    "risk": "safe",
+    "source": "https://github.com/AccessLint/skills",
+    "date_added": "2026-06-02",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "accesslint-scan",
+    "path": "skills/accesslint-scan",
+    "category": "uncategorized",
+    "name": "accesslint-scan",
+    "description": "Audit a live page for accessibility issues, locate each WCAG violation precisely, and return a selector-grounded fix worklist without editing.",
+    "risk": "safe",
+    "source": "https://github.com/AccessLint/skills",
+    "date_added": "2026-06-02",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "accint-solve",
+    "path": "skills/accint-solve",
+    "category": "ai-agents",
+    "name": "accint-solve",
+    "description": "Route agent work through AccInt's MCP memory loop: retrieve prior outcomes, resolve frames, and close commitments with evidence.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-15",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -596,6 +728,28 @@
     }
   },
   {
+    "id": "agent-squad",
+    "path": "skills/agent-squad",
+    "category": "ai-ml",
+    "name": "agent-squad",
+    "description": "Main agent orchestrator that coordinates a specialized squad of agents",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null,
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "agent-tool-builder",
     "path": "skills/agent-tool-builder",
     "category": "ai-ml",
@@ -760,6 +914,28 @@
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "agenttrace-session-audit",
+    "path": "skills/agenttrace-session-audit",
+    "category": "development",
+    "name": "agenttrace-session-audit",
+    "description": "Audit local AI coding-agent sessions with agenttrace for cost, tool failures, latency, anomalies, health, diffs, and CI gates.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-05-10",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -976,6 +1152,28 @@
     }
   },
   {
+    "id": "ai-native-ui",
+    "path": "skills/design-it/ai-native-ui",
+    "category": "design-it",
+    "name": "ai-native-ui",
+    "description": "Web and App implementation guide for AI Native UI. Trigger when user wants conversational interfaces, adaptive layouts, and generative AI aesthetics.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": "2026-06-17",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "ai-product",
     "path": "skills/ai-product",
     "category": "ai-ml",
@@ -1116,6 +1314,28 @@
     "risk": "safe",
     "source": "community",
     "date_added": "2026-03-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "alex",
+    "path": "skills/agent-squad/alex",
+    "category": "agent-squad",
+    "name": "alex",
+    "description": "Turns requirements into a precise, dependency-aware implementation plan.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-11",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -1310,12 +1530,58 @@
   {
     "id": "andrej-karpathy",
     "path": "skills/andrej-karpathy",
-    "category": "ai-ml",
+    "category": "uncategorized",
     "name": "andrej-karpathy",
-    "description": "Agente que simula Andrej Karpathy \u2014 ex-Director of AI da Tesla, co-fundador da OpenAI, fundador da Eureka Labs, e o maior educador de deep learning do mundo.",
+    "description": "Behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.",
     "risk": "safe",
     "source": "community",
     "date_added": "2026-03-06",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "android-cli",
+    "path": "skills/android-cli",
+    "category": "tools",
+    "name": "android-cli",
+    "description": "Orchestrates Android development tasks including project creation, deployment, SDK management, and environment diagnostics using the `android` command-line tool.",
+    "risk": "critical",
+    "source": "self",
+    "date_added": "2026-06-15",
+    "plugin": {
+      "targets": {
+        "codex": "blocked",
+        "claude": "blocked"
+      },
+      "setup": {
+        "type": "manual",
+        "summary": "Installer guidance executes remote Android CLI setup scripts; keep out of plugin-safe bundles.",
+        "docs": "SKILL.md"
+      },
+      "reasons": [
+        "explicit_target_restriction"
+      ]
+    }
+  },
+  {
+    "id": "android-dev",
+    "path": "skills/android-dev",
+    "category": "mobile",
+    "name": "android-dev",
+    "description": "Production-grade Android app development guide covering native (Kotlin/Java), cross-platform (Flutter, RN, KMM), and hybrid architectures.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-08",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -1338,6 +1604,28 @@
     "risk": "safe",
     "source": "community",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "android-ui-journey-testing",
+    "path": "skills/android-ui-journey-testing",
+    "category": "testing",
+    "name": "android-ui-journey-testing",
+    "description": "XML-specified Android UI journey testing, interactive step execution, assertion verification, and JSON outcome reporting.",
+    "risk": "critical",
+    "source": "self",
+    "date_added": "2026-06-18",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -1528,6 +1816,52 @@
     }
   },
   {
+    "id": "anti-sycophancy",
+    "path": "skills/anti-sycophancy",
+    "category": "uncategorized",
+    "name": "anti-sycophancy",
+    "description": "Eliminate sycophantic agreement patterns in AI responses. Load via /skill anti-sycophancy.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-05",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "antigravity-agent-manager",
+    "path": "skills/antigravity-agent-manager",
+    "category": "general",
+    "name": "antigravity-agent-manager",
+    "description": "Configure and orchestrate parallel agents using the standalone Antigravity 2.0 Agent Manager and Antigravity IDE.",
+    "risk": "critical",
+    "source": "self",
+    "date_added": "2026-06-04",
+    "plugin": {
+      "targets": {
+        "codex": "blocked",
+        "claude": "blocked"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [
+        "absolute_host_path"
+      ]
+    }
+  },
+  {
     "id": "antigravity-design-expert",
     "path": "skills/antigravity-design-expert",
     "category": "design",
@@ -1580,6 +1914,28 @@
     "risk": "none",
     "source": "self",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "aomi-transact",
+    "path": "skills/aomi-transact",
+    "category": "ai-ml",
+    "name": "aomi-transact",
+    "description": "Build natural-language crypto/DeFi agents and EVM MCP plugins (Claude Code, Cursor, Codex, Gemini). Aomi turns prompts into wallet-signed txs on Ethereum, Base, Arbitrum, Optimism, Polygon, Linea \u2014 non-custodial, fork-simulated. 40+ apps: Uniswap, Aave, Lido, Morpho, GMX, Hyperliquid, Polymarket.",
+    "risk": "critical",
+    "source": "aomi-labs/skills (MIT)",
+    "date_added": "2026-05-06",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -2168,6 +2524,31 @@
     }
   },
   {
+    "id": "apple-notes-search",
+    "path": "skills/apple-notes-search",
+    "category": "uncategorized",
+    "name": "apple-notes-search",
+    "description": "Semantic + keyword search and connection-discovery across the user's own Apple Notes via the apple-notes MCP server. Use when the user wants to find, recall, or synthesize something from their notes, or surface non-obvious bridges/related notes. macOS, on-device.",
+    "risk": "critical",
+    "source": "community",
+    "date_added": "2026-06-16",
+    "plugin": {
+      "targets": {
+        "codex": "blocked",
+        "claude": "blocked"
+      },
+      "setup": {
+        "type": "manual",
+        "summary": "Requires third-party MCP setup and macOS Full Disk Access; keep out of plugin-safe bundles.",
+        "docs": "SKILL.md"
+      },
+      "reasons": [
+        "absolute_host_path",
+        "explicit_target_restriction"
+      ]
+    }
+  },
+  {
     "id": "application-performance-performance-optimization",
     "path": "skills/application-performance-performance-optimization",
     "category": "reliability",
@@ -2278,6 +2659,28 @@
     }
   },
   {
+    "id": "aria",
+    "path": "skills/agent-squad/aria",
+    "category": "agent-squad",
+    "name": "aria",
+    "description": "Designs the data model, API contracts, and structural foundation of the system.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-11",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "arm-cortex-expert",
     "path": "skills/arm-cortex-expert",
     "category": "development",
@@ -2300,6 +2703,28 @@
     }
   },
   {
+    "id": "article-illustrations",
+    "path": "skills/article-illustrations",
+    "category": "creative",
+    "name": "article-illustrations",
+    "description": "Generate hand-drawn 16:9 article illustrations with the Grav character IP, sparse annotations, and absurd but clear visual metaphors.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-06",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "asana-automation",
     "path": "skills/asana-automation",
     "category": "project-management",
@@ -2308,6 +2733,28 @@
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "ask-matt",
+    "path": "skills/ask-matt",
+    "category": "productivity",
+    "name": "ask-matt",
+    "description": "Ask which skill or flow fits your situation. A router over the user-invoked skills in this repo.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-19",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -2407,6 +2854,54 @@
         "docs": null
       },
       "reasons": []
+    }
+  },
+  {
+    "id": "atlas-contract",
+    "path": "skills/atlas-contract",
+    "category": "backend",
+    "name": "atlas-contract",
+    "description": "Goal-integrity skill. Use for backend/API/persistence, preserve/do-not-change, tests/validation, mocks, rework, multi-part requests. Emits Goal Contracts, Deviation Notices, Phase Checks, Final Audits. Skip for Q&A or trivial edits.",
+    "risk": "critical",
+    "source": "community",
+    "date_added": "2026-06-12",
+    "plugin": {
+      "targets": {
+        "codex": "blocked",
+        "claude": "blocked"
+      },
+      "setup": {
+        "type": "manual",
+        "summary": "Reads workspace Atlas.md as untrusted project memory; keep out of plugin-safe bundles.",
+        "docs": "SKILL.md"
+      },
+      "reasons": [
+        "explicit_target_restriction"
+      ]
+    }
+  },
+  {
+    "id": "atlas-ledger",
+    "path": "skills/atlas-ledger",
+    "category": "uncategorized",
+    "name": "atlas-ledger",
+    "description": "Companion to atlas-contract. Auto-invoked by its Final Audit on caught drift; also use after Post Reviews or user requests to record a mistake. Distills drift into WHEN/DON'T/INSTEAD clauses, writes to Atlas.md after confirmation.",
+    "risk": "critical",
+    "source": "community",
+    "date_added": "2026-06-12",
+    "plugin": {
+      "targets": {
+        "codex": "blocked",
+        "claude": "blocked"
+      },
+      "setup": {
+        "type": "manual",
+        "summary": "Writes durable Atlas.md project memory after confirmation; keep out of plugin-safe bundles.",
+        "docs": "SKILL.md"
+      },
+      "reasons": [
+        "explicit_target_restriction"
+      ]
     }
   },
   {
@@ -2521,6 +3016,28 @@
       "reasons": [
         "absolute_host_path"
       ]
+    }
+  },
+  {
+    "id": "aurora-ui",
+    "path": "skills/design-it/aurora-ui",
+    "category": "design-it",
+    "name": "aurora-ui",
+    "description": "Web and App implementation guide for Aurora UI. Trigger when user wants gradient glows, color blobs, and atmospheric lighting effects.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": "2026-06-17",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
     }
   },
   {
@@ -5714,6 +6231,28 @@
     }
   },
   {
+    "id": "bash",
+    "path": "skills/super-code/bash",
+    "category": "super-code",
+    "name": "bash",
+    "description": "Language-specific super-code guidelines for bash.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-16",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "bash-defensive-patterns",
     "path": "skills/bash-defensive-patterns",
     "category": "development",
@@ -5956,6 +6495,28 @@
     }
   },
   {
+    "id": "bento-ui",
+    "path": "skills/design-it/bento-ui",
+    "category": "design-it",
+    "name": "bento-ui",
+    "description": "Web and App implementation guide for Bento UI. Trigger when user wants modular grid cards, Apple-like dashboard style, or sections arranged like a bento box.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": "2026-06-17",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "bevy-ecs-expert",
     "path": "skills/bevy-ecs-expert",
     "category": "uncategorized",
@@ -5975,6 +6536,30 @@
         "docs": null
       },
       "reasons": []
+    }
+  },
+  {
+    "id": "bilig-workpaper",
+    "path": "skills/bilig-workpaper",
+    "category": "web-development",
+    "name": "bilig-workpaper",
+    "description": "Use formula-backed WorkPaper JSON and MCP tools for agent spreadsheet tasks without driving Excel or a browser UI.",
+    "risk": "critical",
+    "source": "community",
+    "date_added": "2026-05-21",
+    "plugin": {
+      "targets": {
+        "codex": "blocked",
+        "claude": "blocked"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [
+        "explicit_target_restriction"
+      ]
     }
   },
   {
@@ -6312,6 +6897,28 @@
     }
   },
   {
+    "id": "brave-man",
+    "path": "skills/brave-man",
+    "category": "ai-ml",
+    "name": "brave-man",
+    "description": "Runs a structured clarifying interview for new project requests before building. Instead of writing code, it outputs a fully specified prompt.md for a fresh agent session to execute, preventing expensive mistakes.",
+    "risk": "critical",
+    "source": "community",
+    "date_added": "2026-06-16",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "brevo-automation",
     "path": "skills/brevo-automation",
     "category": "marketing",
@@ -6422,6 +7029,50 @@
     }
   },
   {
+    "id": "brutalism",
+    "path": "skills/design-it/brutalism",
+    "category": "design-it",
+    "name": "brutalism",
+    "description": "Web and App implementation guide for Brutalism. Trigger when user wants a raw appearance, intentionally unfinished look, and rejection of standard design conventions.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": "2026-06-17",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "brutalist-typography",
+    "path": "skills/design-it/brutalist-typography",
+    "category": "design-it",
+    "name": "brutalist-typography",
+    "description": "Web and App implementation guide for Brutalist Typography. Trigger when user wants huge fonts, raw presentation, and aggressive layout decisions.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": "2026-06-17",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "bug-hunter",
     "path": "skills/bug-hunter",
     "category": "development-and-testing",
@@ -6430,6 +7081,28 @@
     "risk": "safe",
     "source": "community",
     "date_added": "2026-03-05",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "bugs-are-annoying",
+    "path": "skills/bugs-are-annoying",
+    "category": "uncategorized",
+    "name": "bugs-are-annoying",
+    "description": "Adversarial code auditor that hunts down bugs, logic errors, and security flaws. Use for deep correctness passes, not style reviews.",
+    "risk": "critical",
+    "source": "community",
+    "date_added": "2026-06-19",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -6518,6 +7191,28 @@
     "risk": "none",
     "source": "vibeship-spawner-skills (Apache 2.0)",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "bumblebee",
+    "path": "skills/bumblebee",
+    "category": "security",
+    "name": "bumblebee",
+    "description": "Run Bumblebee supply-chain inventory and exposure scans on macOS/Linux to detect compromised packages, extensions, and MCP host configs.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-05-27",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -6650,6 +7345,28 @@
     "risk": "safe",
     "source": "official",
     "date_added": "2026-04-29",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "c",
+    "path": "skills/super-code/c",
+    "category": "super-code",
+    "name": "c",
+    "description": "Language-specific super-code guidelines for c.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-16",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -6892,6 +7609,28 @@
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "card-based-design",
+    "path": "skills/design-it/card-based-design",
+    "category": "design-it",
+    "name": "card-based-design",
+    "description": "Web and App implementation guide for Card-Based Design. Trigger when user wants information cards, Pinterest-style layouts, and bite-sized content containers.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": "2026-06-17",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -7302,6 +8041,28 @@
     }
   },
   {
+    "id": "ckw-design",
+    "path": "skills/ckw-design",
+    "category": "web-development",
+    "name": "ckw-design",
+    "description": "Frontend design entry point: direction, design system, visual philosophy. Use whenever building or touching the look of any web UI (components, pages, dashboards, React/Vue/HTML-CSS) or when the user says \"make this look better\", \"fix the spacing/layout\", or mentions styling, color, type, or polish.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-16",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "claimable-postgres",
     "path": "skills/claimable-postgres",
     "category": "database",
@@ -7604,6 +8365,28 @@
     "risk": "safe",
     "source": "https://github.com/NotMyself/claude-win11-speckit-update-skill",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "claymorphism",
+    "path": "skills/design-it/claymorphism",
+    "category": "design-it",
+    "name": "claymorphism",
+    "description": "Web and App implementation guide for Claymorphism. Trigger when user wants soft 3D elements, rounded shapes, and a playful, tactile appearance.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": "2026-06-17",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -8168,6 +8951,28 @@
     }
   },
   {
+    "id": "codebase-design",
+    "path": "skills/codebase-design",
+    "category": "architecture",
+    "name": "codebase-design",
+    "description": "Shared vocabulary for designing deep modules. Use when the user wants to design or improve a module's interface, find deepening opportunities, decide where a seam goes, make code more testable or AI-navigable, or when another skill needs the deep-module vocabulary.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-19",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "codebase-to-wordpress-converter",
     "path": "skills/codebase-to-wordpress-converter",
     "category": "development",
@@ -8187,6 +8992,30 @@
         "docs": null
       },
       "reasons": []
+    }
+  },
+  {
+    "id": "codex-fable5",
+    "path": "skills/codex-fable5",
+    "category": "agent-behavior",
+    "name": "codex-fable5",
+    "description": "Apply Fable-inspired discipline to Codex work: inspect first, track goals and findings, ground conclusions in evidence, verify before completion, and adapt Claude/Fable prompt guidance without identity or provider claims.",
+    "risk": "critical",
+    "source": "community",
+    "date_added": "2026-06-15",
+    "plugin": {
+      "targets": {
+        "codex": "blocked",
+        "claude": "blocked"
+      },
+      "setup": {
+        "type": "manual",
+        "summary": "Optional external plugin/helper setup executes mutable third-party code; keep out of plugin-safe bundles.",
+        "docs": "SKILL.md"
+      },
+      "reasons": [
+        "explicit_target_restriction"
+      ]
     }
   },
   {
@@ -8234,6 +9063,28 @@
     }
   },
   {
+    "id": "color-blocking",
+    "path": "skills/design-it/color-blocking",
+    "category": "design-it",
+    "name": "color-blocking",
+    "description": "Web and App implementation guide for Color Blocking. Trigger when user wants large color sections, striking layout divisions, and Mondrian-style grids.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": "2026-06-17",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "comfyui-gateway",
     "path": "skills/comfyui-gateway",
     "category": "backend",
@@ -8242,6 +9093,28 @@
     "risk": "safe",
     "source": "community",
     "date_added": "2026-03-06",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "command-center-ui",
+    "path": "skills/design-it/command-center-ui",
+    "category": "design-it",
+    "name": "command-center-ui",
+    "description": "Web and App implementation guide for Command Center UI. Trigger when user wants monitoring systems, enterprise dashboards, NOCs, and global maps.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": "2026-06-17",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -8308,6 +9181,74 @@
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "competitor-analysis",
+    "path": "skills/competitor-analysis",
+    "category": "marketing",
+    "name": "competitor-analysis",
+    "description": "Research competitors with Browserbase discovery, enrichment lanes, screenshots, matrices, and HTML reports.",
+    "risk": "safe",
+    "source": "official",
+    "date_added": "2026-06-19",
+    "plugin": {
+      "targets": {
+        "codex": "blocked",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [
+        "target_specific_home_path"
+      ]
+    }
+  },
+  {
+    "id": "complexity-cuts",
+    "path": "skills/complexity-cuts",
+    "category": "uncategorized",
+    "name": "complexity-cuts",
+    "description": "Lower Big-O on existing code via a one-transformation-at-a-time playbook with verify-revert-stop. For new code use lemmaly; for math-level wins escalate to mathguard.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-05-26",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "composition-patterns",
+    "path": "skills/composition-patterns",
+    "category": "uncategorized",
+    "name": "composition-patterns",
+    "description": "Use when working with composition-patterns tasks or workflows",
+    "risk": "safe",
+    "source": "https://github.com/vercel-labs/agent-skills",
+    "date_added": "2026-06-02",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -8616,6 +9557,28 @@
     "risk": "unknown",
     "source": "community",
     "date_added": null,
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "container-security-hardening",
+    "path": "skills/container-security-hardening",
+    "category": "security",
+    "name": "container-security-hardening",
+    "description": "Harden Docker/container images and runtime deployments with secure base images, non-root users, CVE scanning, SBOM/signing, seccomp/AppArmor, and Kubernetes pod security controls. Use for Dockerfile security reviews, container CVEs, image scanning, distroless images, or production hardening.\n",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-05-30",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -9158,6 +10121,28 @@
     }
   },
   {
+    "id": "cpp",
+    "path": "skills/super-code/cpp",
+    "category": "super-code",
+    "name": "cpp",
+    "description": "Language-specific super-code guidelines for cpp.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-16",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "cpp-pro",
     "path": "skills/cpp-pro",
     "category": "code",
@@ -9312,6 +10297,270 @@
     }
   },
   {
+    "id": "crossframe",
+    "path": "skills/crossframe",
+    "category": "workflow",
+    "name": "crossframe",
+    "description": "Use when the user explicitly invokes CrossFrame or \u8de8\u5c3a\u5ea6\u7ed3\u6784\u8bca\u65ad for Chinese-canonical structural diagnosis of complex relationships, organizations, institutions, public disputes, or long-term evolution.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-16",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "crossframe-casebook",
+    "path": "skills/crossframe-casebook",
+    "category": "content",
+    "name": "crossframe-casebook",
+    "description": "Use when CrossFrame Suite routes explicit Chinese casebook work: turning materials into reusable cases, anonymized entries, mechanisms, and retrieval indexes.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-16",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "crossframe-critical",
+    "path": "skills/crossframe-critical",
+    "category": "content",
+    "name": "crossframe-critical",
+    "description": "Use only when the user explicitly names crossframe-critical for a Chinese structural critique dossier, article plan, or long-form critical essay.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-16",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "crossframe-debate",
+    "path": "skills/crossframe-debate",
+    "category": "content",
+    "name": "crossframe-debate",
+    "description": "Use when CrossFrame Suite routes explicit Chinese proposition testing, debate analysis, hidden-premise review, rebuttal design, or withdrawal condition checks.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-16",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "crossframe-dialogue",
+    "path": "skills/crossframe-dialogue",
+    "category": "content",
+    "name": "crossframe-dialogue",
+    "description": "Use when CrossFrame Suite routes explicit Chinese reader replies, editor responses, consultation-style short answers, or boundary-aware structural advice.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-16",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "crossframe-essay",
+    "path": "skills/crossframe-essay",
+    "category": "content",
+    "name": "crossframe-essay",
+    "description": "Use when explicit CrossFrame work needs a Chinese critical insight essay, commentary, concept essay, public piece, or structure-to-article draft after diagnosis.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-16",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "crossframe-notebook",
+    "path": "skills/crossframe-notebook",
+    "category": "content",
+    "name": "crossframe-notebook",
+    "description": "Use when CrossFrame Suite routes explicit Chinese notes for books, theories, articles, excerpts, bidirectional reading, absorption, or conflict mapping.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-16",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "crossframe-org",
+    "path": "skills/crossframe-org",
+    "category": "business",
+    "name": "crossframe-org",
+    "description": "Use when CrossFrame Suite routes explicit Chinese analysis of teams, projects, organizations, responsibility chains, feedback write-back, repair, or retrospectives.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-16",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "crossframe-public",
+    "path": "skills/crossframe-public",
+    "category": "workflow",
+    "name": "crossframe-public",
+    "description": "Use when CrossFrame Suite routes explicit Chinese analysis of public issues, platform governance, policy, institutional responsibility, appeals, or compliance evidence.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-16",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "crossframe-review",
+    "path": "skills/crossframe-review",
+    "category": "workflow",
+    "name": "crossframe-review",
+    "description": "Use when explicit CrossFrame output needs review for reasoning fidelity, evidence boundaries, source anchors, concept drift, article collapse, or repair steps.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-16",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "crossframe-suite",
+    "path": "skills/crossframe-suite",
+    "category": "workflow",
+    "name": "crossframe-suite",
+    "description": "Use when the user explicitly invokes CrossFrame Suite for Chinese structural diagnosis workflows across relationships, organizations, public issues, philosophy, research, or essay output.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-16",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "crossframe-teach",
+    "path": "skills/crossframe-teach",
+    "category": "content",
+    "name": "crossframe-teach",
+    "description": "Use when CrossFrame Suite routes explicit Chinese teaching of CrossFrame concepts, misreading boundaries, plain-language examples, signals, or exercises.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-16",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "crypto-bd-agent",
     "path": "skills/crypto-bd-agent",
     "category": "blockchain",
@@ -9320,6 +10569,28 @@
     "risk": "safe",
     "source": "community",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "csharp",
+    "path": "skills/super-code/csharp",
+    "category": "super-code",
+    "name": "csharp",
+    "description": "Language-specific super-code guidelines for csharp.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-16",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -9422,6 +10693,72 @@
     }
   },
   {
+    "id": "cv-generator",
+    "path": "skills/cv-generator",
+    "category": "content",
+    "name": "cv-generator",
+    "description": "Generate professional, ATS-optimized CVs for FlowCV, Canva, Google Docs, or Word. Handles multi-source merging, JD targeting, seniority adaptation, and humanized rewriting. Outputs paste-ready text with an ATS flaw report and improvement suggestions.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-06",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "cyber-y2k",
+    "path": "skills/design-it/cyber-y2k",
+    "category": "design-it",
+    "name": "cyber-y2k",
+    "description": "Web and App implementation guide for Cyber Y2K. Trigger when user wants modern Y2K, holographic visuals, and glitch aesthetics.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": "2026-06-17",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "cyberpunk-ui",
+    "path": "skills/design-it/cyberpunk-ui",
+    "category": "design-it",
+    "name": "cyberpunk-ui",
+    "description": "Web and App implementation guide for Cyberpunk UI. Trigger when user wants neon colors, dark backgrounds, high-tech dystopian aesthetics, and hacking interfaces.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": "2026-06-17",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "daily",
     "path": "skills/daily",
     "category": "uncategorized",
@@ -9474,6 +10811,94 @@
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "dark-mode",
+    "path": "skills/design-it/dark-mode",
+    "category": "design-it",
+    "name": "dark-mode",
+    "description": "Web and App implementation guide for Dark Mode Design. Trigger when user wants dark surfaces, reduced eye strain, and premium sleek aesthetics.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": "2026-06-17",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "dart",
+    "path": "skills/super-code/dart",
+    "category": "super-code",
+    "name": "dart",
+    "description": "Language-specific super-code guidelines for dart.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-16",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "dashboard-design",
+    "path": "skills/design-it/dashboard-design",
+    "category": "design-it",
+    "name": "dashboard-design",
+    "description": "Web and App implementation guide for Dashboard Design. Trigger when user wants analytics-focused layouts, data visualization, and modular overview screens.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": "2026-06-17",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "data-dense-design",
+    "path": "skills/design-it/data-dense-design",
+    "category": "design-it",
+    "name": "data-dense-design",
+    "description": "Web and App implementation guide for Data-Dense Design. Trigger when user wants professional tools, maximum information density, and expert interfaces (like Bloomberg terminals or IDEs).",
+    "risk": "safe",
+    "source": "self",
+    "date_added": "2026-06-17",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -10082,6 +11507,28 @@
     }
   },
   {
+    "id": "debugging-toolkit",
+    "path": "skills/debugging-toolkit",
+    "category": "development",
+    "name": "debugging-toolkit",
+    "description": "Use when working with debugging toolkit smart debug (Alias for debugging-toolkit-smart-debug)",
+    "risk": "unknown",
+    "source": "alias",
+    "date_added": "2026-06-02",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "debugging-toolkit-smart-debug",
     "path": "skills/debugging-toolkit-smart-debug",
     "category": "development",
@@ -10090,6 +11537,28 @@
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "decision-navigator",
+    "path": "skills/decision-navigator",
+    "category": "planning",
+    "name": "decision-navigator",
+    "description": "Guide stuck or overwhelmed users through targeted branching questions until they reach concrete next steps.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-05-27",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -10170,6 +11639,28 @@
     }
   },
   {
+    "id": "dep",
+    "path": "skills/agent-squad/dep",
+    "category": "agent-squad",
+    "name": "dep",
+    "description": "Handles containerization, CI/CD pipelines, and deployment setup.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-11",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "dependency-management-deps-audit",
     "path": "skills/dependency-management-deps-audit",
     "category": "security",
@@ -10211,6 +11702,30 @@
         "docs": null
       },
       "reasons": []
+    }
+  },
+  {
+    "id": "deploy-to-vercel",
+    "path": "skills/deploy-to-vercel",
+    "category": "devops",
+    "name": "deploy-to-vercel",
+    "description": "Deploy applications and websites to Vercel. Use when the user requests deployment actions like \"deploy my app\", \"deploy and give me the link\", \"push this live\", or \"create a preview deployment\".",
+    "risk": "safe",
+    "source": "https://github.com/vercel-labs/agent-skills",
+    "date_added": "2026-06-02",
+    "plugin": {
+      "targets": {
+        "codex": "blocked",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [
+        "target_specific_home_path"
+      ]
     }
   },
   {
@@ -10288,6 +11803,28 @@
     "risk": "critical",
     "source": "community",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "design-it",
+    "path": "skills/design-it",
+    "category": "frontend",
+    "name": "design-it",
+    "description": "Routes frontend design tasks to 48 specific UI styles. Triggers for websites, app screens, or UI components requesting a specific aesthetic.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": "2026-06-17",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -10390,6 +11927,28 @@
     }
   },
   {
+    "id": "deterministic-design",
+    "path": "skills/deterministic-design",
+    "category": "uncategorized",
+    "name": "deterministic-design",
+    "description": "Render the UI and prove it's balanced + usable: a deterministic layout audit (centroid / optical-center / pixel-oracle balance via explicit math + annotated screenshot) plus a vision-judged Nielsen usability audit by a separate fresh-eyes judge. The measurement layer taste-only design skills lack.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-16",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "devcontainer-setup",
     "path": "skills/devcontainer-setup",
     "category": "development",
@@ -10464,6 +12023,28 @@
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "diagnosing-bugs",
+    "path": "skills/diagnosing-bugs",
+    "category": "development",
+    "name": "diagnosing-bugs",
+    "description": "Diagnosis loop for hard bugs and performance regressions. Use when the user says \"diagnose\"/\"debug this\", or reports something broken/throwing/failing/slow.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-19",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -10722,6 +12303,28 @@
     }
   },
   {
+    "id": "doc2math",
+    "path": "skills/doc2math",
+    "category": "uncategorized",
+    "name": "doc2math",
+    "description": "Convert narrative technical documents into grounded Mathematical Problem Specifications with variables, constraints, objectives, and uncertainty.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-05-31",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "docker-expert",
     "path": "skills/docker-expert",
     "category": "devops",
@@ -10898,6 +12501,52 @@
     }
   },
   {
+    "id": "domain-modeling",
+    "path": "skills/domain-modeling",
+    "category": "architecture",
+    "name": "domain-modeling",
+    "description": "Build and sharpen a project's domain model. Use when the user wants to pin down domain terminology or a ubiquitous language, record an architectural decision, or when another skill needs to maintain the domain model.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-19",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "dos-verify-done-claims",
+    "path": "skills/dos-verify-done-claims",
+    "category": "quality",
+    "name": "dos-verify-done-claims",
+    "description": "Before accepting an agent's 'done / shipped / fixed' claim, verify it against ground truth (git ancestry + the commit's own diff) using the DOS kernel's `dos verify` and `dos commit-audit` \u2014 never the agent's own narration.",
+    "risk": "critical",
+    "source": "community",
+    "date_added": "2026-06-12",
+    "plugin": {
+      "targets": {
+        "codex": "blocked",
+        "claude": "blocked"
+      },
+      "setup": {
+        "type": "manual",
+        "summary": "Setup installs and executes an external PyPI CLI; keep out of plugin-safe bundles.",
+        "docs": "SKILL.md"
+      },
+      "reasons": [
+        "explicit_target_restriction"
+      ]
+    }
+  },
+  {
     "id": "dotnet-architect",
     "path": "skills/dotnet-architect",
     "category": "development",
@@ -11030,6 +12679,28 @@
     }
   },
   {
+    "id": "duotone-design",
+    "path": "skills/design-it/duotone-design",
+    "category": "design-it",
+    "name": "duotone-design",
+    "description": "Web and App implementation guide for Duotone Design. Trigger when user wants two-color schemes, striking imagery, and Spotify-like playlist aesthetics.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": "2026-06-17",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "dwarf-expert",
     "path": "skills/dwarf-expert",
     "category": "development",
@@ -11140,6 +12811,96 @@
     }
   },
   {
+    "id": "ecl-harness-engineer",
+    "path": "skills/ecl-harness-engineer",
+    "category": "development",
+    "name": "ecl-harness-engineer",
+    "description": "Create or audit ECL Agent Harness infrastructure: AGENTS.md, change tracking, repository guidance, lint checks, CI gates, and agent handoff docs.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-13",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "editorial-design",
+    "path": "skills/design-it/editorial-design",
+    "category": "design-it",
+    "name": "editorial-design",
+    "description": "Web and App implementation guide for Editorial Design. Trigger when user wants a magazine-inspired layout, large headlines, and elegant typography pairing.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": "2026-06-17",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "efficient-web-research",
+    "path": "skills/efficient-web-research",
+    "category": "uncategorized",
+    "name": "efficient-web-research",
+    "description": "Protocol for token-efficient web research. Use when accessing URLs, GitHub repos, or running search queries. Prevents full-page fetching waste.",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "ejentum-reasoning-harness",
+    "path": "skills/ejentum-reasoning-harness",
+    "category": "ai-ml",
+    "name": "ejentum-reasoning-harness",
+    "description": "MCP server exposing four cognitive harness modes (reasoning, code, anti-deception, memory). Each call returns an engineered scaffold (failure pattern, procedure, suppression vectors, falsification test) the agent ingests before generating.",
+    "risk": "critical",
+    "source": "community",
+    "date_added": "2026-05-10",
+    "plugin": {
+      "targets": {
+        "codex": "blocked",
+        "claude": "blocked"
+      },
+      "setup": {
+        "type": "manual",
+        "summary": "Install the ejentum-mcp MCP server (`npx -y ejentum-mcp`) and provide an EJENTUM_API_KEY env var (free tier: 100 calls, no card, at https://ejentum.com/pricing). Add the server to your client's mcpServers config (Claude Code, Cursor, Cline, Windsurf, Codex CLI, Gemini CLI, Antigravity, or VS Code Copilot Chat).",
+        "docs": "https://github.com/ejentum/ejentum-mcp#installation"
+      },
+      "reasons": [
+        "explicit_target_restriction"
+      ]
+    }
+  },
+  {
     "id": "electron-development",
     "path": "skills/electron-development",
     "category": "development",
@@ -11148,6 +12909,28 @@
     "risk": "safe",
     "source": "community",
     "date_added": "2026-03-12",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "elixir",
+    "path": "skills/super-code/elixir",
+    "category": "super-code",
+    "name": "elixir",
+    "description": "Language-specific super-code guidelines for elixir.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-16",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -11668,6 +13451,50 @@
     }
   },
   {
+    "id": "event-staffing-compliance",
+    "path": "skills/event-staffing-compliance",
+    "category": "uncategorized",
+    "name": "event-staffing-compliance",
+    "description": "Assess worker-classification and compliance risk for temporary event staffing in the US and Canada \u2014 W-2 vs 1099, misclassification penalties, joint-employer liability, COI, and wage/hour rules. Includes live state-by-state lookups via MCP.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-05",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "event-staffing-ordering",
+    "path": "skills/event-staffing-ordering",
+    "category": "uncategorized",
+    "name": "event-staffing-ordering",
+    "description": "Order W-2 compliant temporary event staff for conventions, trade shows, festivals, concerts, sporting events, and brand activations across 300+ US and Canadian markets via TempGuru. Covers city coverage, role pricing, availability, state compliance lookups via MCP, and request submission.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-05",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "event-store-design",
     "path": "skills/event-store-design",
     "category": "architecture",
@@ -11720,6 +13547,28 @@
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "examprep-ai",
+    "path": "skills/examprep-ai",
+    "category": "education",
+    "name": "examprep-ai",
+    "description": "Exam preparation assistant that converts syllabi, past papers, or notes into a ranked High Score Roadmap. Covers theory, numericals, MCQs, coding, and lab prep, ordered Easy \u2192 Medium \u2192 Hard. Use for last-minute revision, important topics, and question prediction.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-05",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -12636,6 +14485,94 @@
     }
   },
   {
+    "id": "flat-design",
+    "path": "skills/design-it/flat-design",
+    "category": "design-it",
+    "name": "flat-design",
+    "description": "Web and App implementation guide for the Flat Design style. Trigger when the user wants no shadows, simple shapes, and bold colors.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": "2026-06-17",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "flat-design-2",
+    "path": "skills/design-it/flat-design-2",
+    "category": "design-it",
+    "name": "flat-design-2",
+    "description": "Web and App implementation guide for Flat Design 2.0 (Semi-Flat). Trigger when the user wants flat design with subtle shadows and improved usability.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": "2026-06-17",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "floating-ui",
+    "path": "skills/design-it/floating-ui",
+    "category": "design-it",
+    "name": "floating-ui",
+    "description": "Web and App implementation guide for Floating UI. Trigger when user wants detached cards, elevated components, and a light, airy feel.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": "2026-06-17",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "flowhunt-skill",
+    "path": "skills/flowhunt-skill",
+    "category": "automation",
+    "name": "flowhunt-skill",
+    "description": "Automation discovery audit skill. Walks through a 5-question workflow intake, then audits Gmail/Calendar/Slack/task trackers to identify automation opportunities. Use when a user wants to discover what processes in their business can be automated.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-05-23",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "flutter-expert",
     "path": "skills/flutter-expert",
     "category": "mobile",
@@ -13362,6 +15299,50 @@
     }
   },
   {
+    "id": "frutiger-aero",
+    "path": "skills/design-it/frutiger-aero",
+    "category": "design-it",
+    "name": "frutiger-aero",
+    "description": "Web and App implementation guide for Frutiger Aero. Trigger when user wants glossy gradients, early 2000s nature-inspired tech, glass, and water motifs.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": "2026-06-17",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "fsi-compliance-checker",
+    "path": "skills/fsi-compliance-checker",
+    "category": "security",
+    "name": "fsi-compliance-checker",
+    "description": "Maps code, architecture, and infrastructure changes to specific control IDs in PCI-DSS v4.0 and MAS TRM (Singapore financial regulator), producing an audit-traceable findings report with per-control remediation.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-12",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "full-output-enforcement",
     "path": "skills/full-output-enforcement",
     "category": "frontend",
@@ -13604,6 +15585,28 @@
     }
   },
   {
+    "id": "geminiignore-finops",
+    "path": "skills/geminiignore-finops",
+    "category": "context-optimization",
+    "name": "geminiignore-finops",
+    "description": "Configure and optimize .geminiignore files for AI context window efficiency and token cost reduction (FinOps).",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-05-25",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "geo-fundamentals",
     "path": "skills/geo-fundamentals",
     "category": "marketing",
@@ -13736,6 +15739,28 @@
     }
   },
   {
+    "id": "git-pr-review",
+    "path": "skills/git-pr-review",
+    "category": "workflow",
+    "name": "git-pr-review",
+    "description": "Generate a concise and structured PR description from commit history with minimal token usage",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-05-03",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "git-pr-workflows-git-workflow",
     "path": "skills/git-pr-workflows-git-workflow",
     "category": "workflow",
@@ -13832,6 +15857,28 @@
     "risk": "safe",
     "source": "Dimillian/Skills (MIT)",
     "date_added": "2026-03-25",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "github-actions-advanced",
+    "path": "skills/github-actions-advanced",
+    "category": "devops",
+    "name": "github-actions-advanced",
+    "description": "Design, debug, and harden GitHub Actions CI/CD workflows, including reusable workflows, matrix builds, self-hosted runners, OIDC authentication, caching, environments, secrets, and release automation.\n",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-05-30",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -14000,6 +16047,28 @@
     }
   },
   {
+    "id": "glassmorphism",
+    "path": "skills/design-it/glassmorphism",
+    "category": "design-it",
+    "name": "glassmorphism",
+    "description": "Web and App implementation guide for Glassmorphism. Trigger when user wants a frosted glass effect, blurred backgrounds, transparency, or a sleek MacOS-like feel.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": "2026-06-17",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "global-chat-agent-discovery",
     "path": "skills/global-chat-agent-discovery",
     "category": "development",
@@ -14030,6 +16099,28 @@
     "risk": "critical",
     "source": "community",
     "date_added": null,
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "go",
+    "path": "skills/super-code/go",
+    "category": "super-code",
+    "name": "go",
+    "description": "Language-specific super-code guidelines for go.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-16",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -14374,6 +16465,28 @@
     }
   },
   {
+    "id": "gradient-design",
+    "path": "skills/design-it/gradient-design",
+    "category": "design-it",
+    "name": "gradient-design",
+    "description": "Web and App implementation guide for Gradient Design. Trigger when user wants heavy gradient usage, vibrant transitions, and modern energetic feels.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": "2026-06-17",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "grafana-dashboards",
     "path": "skills/grafana-dashboards",
     "category": "devops",
@@ -14440,6 +16553,72 @@
     }
   },
   {
+    "id": "grill-me",
+    "path": "skills/grill-me",
+    "category": "productivity",
+    "name": "grill-me",
+    "description": "A relentless interview to sharpen a plan or design.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-19",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "grill-with-docs",
+    "path": "skills/grill-with-docs",
+    "category": "productivity",
+    "name": "grill-with-docs",
+    "description": "A relentless interview to sharpen a plan or design, which also creates docs (ADR's and glossary) as we go.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-19",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "grilling",
+    "path": "skills/grilling",
+    "category": "productivity",
+    "name": "grilling",
+    "description": "Interview the user relentlessly about a plan or design. Use when the user wants to stress-test a plan before building, or uses any 'grill' trigger phrases.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-19",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "growth-engine",
     "path": "skills/growth-engine",
     "category": "marketing",
@@ -14470,6 +16649,72 @@
     "risk": "safe",
     "source": "self",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "handoff",
+    "path": "skills/handoff",
+    "category": "productivity",
+    "name": "handoff",
+    "description": "Compact the current conversation into a handoff document for another agent to pick up.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-19",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "hasdata",
+    "path": "skills/hasdata",
+    "category": "uncategorized",
+    "name": "hasdata",
+    "description": "Use HasData APIs for web scraping and structured web data extraction.",
+    "risk": "safe",
+    "source": "official",
+    "date_added": "2026-06-04",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "hasdata-cli",
+    "path": "skills/hasdata-cli",
+    "category": "uncategorized",
+    "name": "hasdata-cli",
+    "description": "Command-line access to search, scraping, and structured web data.",
+    "risk": "safe",
+    "source": "official",
+    "date_added": "2026-06-04",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -14948,6 +17193,28 @@
     }
   },
   {
+    "id": "high-contrast",
+    "path": "skills/design-it/high-contrast",
+    "category": "design-it",
+    "name": "high-contrast",
+    "description": "Web and App implementation guide for High Contrast Design. Trigger when user wants accessibility-focused design, extreme legibility, or stark visual impact.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": "2026-06-17",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "high-end-visual-design",
     "path": "skills/high-end-visual-design",
     "category": "frontend",
@@ -14956,6 +17223,28 @@
     "risk": "safe",
     "source": "community",
     "date_added": "2026-04-17",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "holographic-ui",
+    "path": "skills/design-it/holographic-ui",
+    "category": "design-it",
+    "name": "holographic-ui",
+    "description": "Web and App implementation guide for Holographic UI. Trigger when user wants light-based appearance, projected interfaces, and transparent floating elements.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": "2026-06-17",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -15630,6 +17919,28 @@
     }
   },
   {
+    "id": "ii-commons",
+    "path": "skills/ii-commons",
+    "category": "research",
+    "name": "ii-commons",
+    "description": "Deterministic search across arXiv, PubMed/PMC, and US policy corpora with daily freshness cutoffs.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-05-26",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "ilya-sutskever",
     "path": "skills/ilya-sutskever",
     "category": "ai-ml",
@@ -15638,6 +17949,28 @@
     "risk": "safe",
     "source": "community",
     "date_added": "2026-03-06",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "image-generator",
+    "path": "skills/image-generator",
+    "category": "media",
+    "name": "image-generator",
+    "description": "Generate and edit images using Gemini's Nano Banana Pro model (gemini-3-pro-image-preview). Use this skill when the user asks you to generate images, create visuals, edit photos, create logos, generate product mockups, or perform any image generation/editing task.",
+    "risk": "safe",
+    "source": "official",
+    "date_added": "2026-06-19",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -15704,6 +18037,28 @@
     "risk": "safe",
     "source": "personal",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "improve-codebase-architecture",
+    "path": "skills/improve-codebase-architecture",
+    "category": "development",
+    "name": "improve-codebase-architecture",
+    "description": "Scan a codebase for deepening opportunities, present them as a visual HTML report, then grill through whichever one you pick.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-19",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -15867,6 +18222,28 @@
         "type": "none",
         "summary": "",
         "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "ingest-youtube",
+    "path": "skills/ingest-youtube",
+    "category": "uncategorized",
+    "name": "ingest-youtube",
+    "description": "Pull a YouTube video transcript into a queryable markdown vault with yt-dlp subtitle discovery, VTT cleanup, metadata frontmatter, and capture-seed stubs.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-05-09",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "manual",
+        "summary": "Install yt-dlp locally before running ingest.py; the script only accepts http(s) YouTube video URLs and writes markdown into the selected vault.",
+        "docs": "SKILL.md"
       },
       "reasons": []
     }
@@ -16070,6 +18447,28 @@
     }
   },
   {
+    "id": "invariant-guard",
+    "path": "skills/invariant-guard",
+    "category": "uncategorized",
+    "name": "invariant-guard",
+    "description": "Correctness-first: forces writing the function contract, loop invariant, termination argument, and edge cases BEFORE code. Catches Boyer-Moore, leftmost binary search, QuickSelect traps.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-05-26",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "inventory-demand-planning",
     "path": "skills/inventory-demand-planning",
     "category": "business",
@@ -16122,6 +18521,28 @@
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "isometric-design",
+    "path": "skills/design-it/isometric-design",
+    "category": "design-it",
+    "name": "isometric-design",
+    "description": "Web and App implementation guide for Isometric Design. Trigger when user wants angled 3D appearances without vanishing points, often used for technical illustrations.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": "2026-06-17",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -16254,6 +18675,28 @@
     "risk": "safe",
     "source": "community",
     "date_added": "2026-04-18",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "java",
+    "path": "skills/super-code/java",
+    "category": "super-code",
+    "name": "java",
+    "description": "Language-specific super-code guidelines for java.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-16",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -16686,6 +19129,28 @@
     }
   },
   {
+    "id": "kotlin",
+    "path": "skills/super-code/kotlin",
+    "category": "super-code",
+    "name": "kotlin",
+    "description": "Language-specific super-code guidelines for kotlin.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-16",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "kotlin-coroutines-expert",
     "path": "skills/kotlin-coroutines-expert",
     "category": "development",
@@ -17040,6 +19505,28 @@
     }
   },
   {
+    "id": "layered-design",
+    "path": "skills/design-it/layered-design",
+    "category": "design-it",
+    "name": "layered-design",
+    "description": "Web and App implementation guide for Layered Design. Trigger when user wants multiple depth levels, floating panels, and overlapping content.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": "2026-06-17",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "lead-magnets",
     "path": "skills/lead-magnets",
     "category": "uncategorized",
@@ -17048,6 +19535,28 @@
     "risk": "unknown",
     "source": "https://github.com/coreyhaines31/marketingskills",
     "date_added": "2026-03-21",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "learn",
+    "path": "skills/learn",
+    "category": "education",
+    "name": "learn",
+    "description": "Help a user learn a topic through adaptive tutoring, lesson planning, practice, retrieval checks, explanations, study guides, or exercises. Use when the user asks to learn, understand, practice, drill, review, study, or be tutored on something.",
+    "risk": "safe",
+    "source": "official",
+    "date_added": "2026-06-19",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -17238,6 +19747,50 @@
     }
   },
   {
+    "id": "lemmaly",
+    "path": "skills/lemmaly",
+    "category": "uncategorized",
+    "name": "lemmaly",
+    "description": "Algorithm-first discipline: state Big-O, data structure, and algorithm family BEFORE writing loops, queries, or recursion. Catches O(n^2), N+1, and brute-force defaults.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-05-26",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "lesson-generator",
+    "path": "skills/lesson-generator",
+    "category": "education",
+    "name": "lesson-generator",
+    "description": "Build compact, standalone multi-lesson course artifacts with lesson navigation, objectives, flashcards, quizzes, and source links.",
+    "risk": "safe",
+    "source": "official",
+    "date_added": "2026-06-19",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "lex",
     "path": "skills/lex",
     "category": "legal",
@@ -17413,6 +19966,30 @@
         "docs": null
       },
       "reasons": []
+    }
+  },
+  {
+    "id": "linkedin-content-generator",
+    "path": "skills/linkedin-content-generator",
+    "category": "marketing",
+    "name": "linkedin-content-generator",
+    "description": "AI-powered LinkedIn content suite: generate posts, carousels, newsletters, and 30-day calendars with niche-specific SEO rules and a reinforcement-learning personal memory system.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-04",
+    "plugin": {
+      "targets": {
+        "codex": "blocked",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [
+        "target_specific_home_path"
+      ]
     }
   },
   {
@@ -17636,6 +20213,28 @@
     }
   },
   {
+    "id": "llm-council",
+    "path": "skills/llm-council",
+    "category": "ai-agents",
+    "name": "llm-council",
+    "description": "Run Fireworks-hosted open-weight model councils that compare responses and synthesize a final answer.",
+    "risk": "safe",
+    "source": "official",
+    "date_added": "2026-06-19",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "llm-evaluation",
     "path": "skills/llm-evaluation",
     "category": "ai-ml",
@@ -17836,6 +20435,96 @@
     }
   },
   {
+    "id": "longbridge",
+    "path": "skills/longbridge",
+    "category": "finance",
+    "name": "longbridge",
+    "description": "125+ agent skills for Longbridge Securities \u2014 real-time quotes, charts, fundamentals, portfolio analysis, options, and more for HK/US/A-share/SG markets. Trilingual: Simplified Chinese, Traditional Chinese, English.",
+    "risk": "critical",
+    "source": "official",
+    "date_added": "2026-05-29",
+    "plugin": {
+      "targets": {
+        "codex": "blocked",
+        "claude": "blocked"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [
+        "explicit_target_restriction"
+      ]
+    }
+  },
+  {
+    "id": "lookdev",
+    "path": "skills/lookdev",
+    "category": "uncategorized",
+    "name": "lookdev",
+    "description": "Human-in-the-loop web studio to tune AI-generated output by eye. Stand up a local interactive studio (sliders, pickers, drag handles) or an inline edit/highlight/comment annotation studio for prose & media, instead of guessing values or shipping a static comparison grid.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-16",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "lookdev-auto",
+    "path": "skills/lookdev-auto",
+    "category": "uncategorized",
+    "name": "lookdev-auto",
+    "description": "Automated visual tuning: a vision or video model rates rendered variants in a loop. Render several labeled variants into one artifact, ask the model to rate them and suggest better values, render the suggestions, ask it to pick the best, repeat until good \u2014 the model is the eye, you run the loop.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-16",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "loop-library",
+    "path": "skills/loop-library",
+    "category": "ai-agents",
+    "name": "loop-library",
+    "description": "Find, compare, adapt, and design bounded AI-agent feedback loops with explicit checks, stop rules, guardrails, and handoffs.",
+    "risk": "safe",
+    "source": "official",
+    "date_added": "2026-06-19",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "loss-aversion-designer",
     "path": "skills/loss-aversion-designer",
     "category": "uncategorized",
@@ -17844,6 +20533,50 @@
     "risk": "safe",
     "source": "community",
     "date_added": "2026-04-04",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "lovable-cleanup",
+    "path": "skills/lovable-cleanup",
+    "category": "uncategorized",
+    "name": "lovable-cleanup",
+    "description": "Audits and strips Lovable scaffolding from Vite + React projects \u2014 removes lovable-tagger, swaps placeholder assets, prunes unused Radix deps, and cleans generated docs so the codebase ships as yours.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-13",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "luna",
+    "path": "skills/agent-squad/luna",
+    "category": "agent-squad",
+    "name": "luna",
+    "description": "Reviews code for objective correctness, security, and reliability.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-11",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -17968,6 +20701,30 @@
     }
   },
   {
+    "id": "macos-screen-recorder",
+    "path": "skills/macos-screen-recorder",
+    "category": "uncategorized",
+    "name": "macos-screen-recorder",
+    "description": "macOS screen recorder that captures the main display PLUS system audio via ScreenCaptureKit \u2014 no BlackHole/loopback driver, no sudo, just the standard Screen Recording permission. CLI-driven; fills the headless-screen-recording-with-system-sound gap QuickTime and `screencapture -v` can't.",
+    "risk": "critical",
+    "source": "community",
+    "date_added": "2026-06-16",
+    "plugin": {
+      "targets": {
+        "codex": "blocked",
+        "claude": "blocked"
+      },
+      "setup": {
+        "type": "manual",
+        "summary": "Screen/audio/input capture requires sensitive macOS permissions; keep out of plugin-safe bundles.",
+        "docs": "SKILL.md"
+      },
+      "reasons": [
+        "explicit_target_restriction"
+      ]
+    }
+  },
+  {
     "id": "macos-spm-app-packaging",
     "path": "skills/macos-spm-app-packaging",
     "category": "uncategorized",
@@ -18042,6 +20799,94 @@
     "risk": "critical",
     "source": "community",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "mailtrap-managing-contacts",
+    "path": "skills/mailtrap-managing-contacts",
+    "category": "uncategorized",
+    "name": "mailtrap-managing-contacts",
+    "description": "Manage Mailtrap contacts, lists, segments, custom fields, imports, CRM syncs, and campaign audiences through the UI or API.",
+    "risk": "critical",
+    "source": "community",
+    "date_added": "2026-06-19",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "mailtrap-sending-emails",
+    "path": "skills/mailtrap-sending-emails",
+    "category": "uncategorized",
+    "name": "mailtrap-sending-emails",
+    "description": "Configure or troubleshoot Mailtrap live email sending with Email API, SMTP, transactional streams, bulk streams, or batches.",
+    "risk": "critical",
+    "source": "community",
+    "date_added": "2026-06-19",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "mailtrap-setting-up-sending-domain",
+    "path": "skills/mailtrap-setting-up-sending-domain",
+    "category": "uncategorized",
+    "name": "mailtrap-setting-up-sending-domain",
+    "description": "Add or verify a Mailtrap sending domain, troubleshoot DNS propagation, publish SPF/DKIM/DMARC records, and complete compliance.",
+    "risk": "critical",
+    "source": "community",
+    "date_added": "2026-06-19",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "mailtrap-testing-with-sandbox",
+    "path": "skills/mailtrap-testing-with-sandbox",
+    "category": "uncategorized",
+    "name": "mailtrap-testing-with-sandbox",
+    "description": "Capture outbound email in Mailtrap Email Sandbox for development, staging, CI, HTML inspection, spam checks, and fake inbox tests.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-19",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -18500,6 +21345,28 @@
     }
   },
   {
+    "id": "mason",
+    "path": "skills/agent-squad/mason",
+    "category": "agent-squad",
+    "name": "mason",
+    "description": "Produces clean, functional code that matches the architecture and checklists.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-11",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "matematico-tao",
     "path": "skills/matematico-tao",
     "category": "uncategorized",
@@ -18508,6 +21375,50 @@
     "risk": "none",
     "source": "community",
     "date_added": "2026-03-06",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "material-design",
+    "path": "skills/design-it/material-design",
+    "category": "design-it",
+    "name": "material-design",
+    "description": "Web and App implementation guide for Material Design. Trigger when user wants Google's aesthetic, elevation, motion, and consistent components.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": "2026-06-17",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "mathguard",
+    "path": "skills/mathguard",
+    "category": "uncategorized",
+    "name": "mathguard",
+    "description": "Math-heavy escalation for n >= 10^6 \u2014 Bloom, HyperLogLog, Count-Min, MinHash/LSH, FFT, JL projection, sweep line. Use when classical O(n log n) is the floor and approximate or math wins.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-05-26",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -18544,6 +21455,28 @@
     }
   },
   {
+    "id": "max",
+    "path": "skills/agent-squad/max",
+    "category": "agent-squad",
+    "name": "max",
+    "description": "Cleans up and improves existing code without changing behavior.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-11",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "maxia",
     "path": "skills/maxia",
     "category": "uncategorized",
@@ -18552,6 +21485,28 @@
     "risk": "unknown",
     "source": "community",
     "date_added": null,
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "maximalism",
+    "path": "skills/design-it/maximalism",
+    "category": "design-it",
+    "name": "maximalism",
+    "description": "Web and App implementation guide for Controlled Maximalism. Trigger when user wants lots of elements, dense content, but a highly curated and artistic presentation.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": "2026-06-17",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -18596,6 +21551,28 @@
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "mcp-tool-developer",
+    "path": "skills/mcp-tool-developer",
+    "category": "developer-tools",
+    "name": "mcp-tool-developer",
+    "description": "Build Model Context Protocol (MCP) servers and tools from scratch. Full-stack MCP development with TypeScript/Python, testing, deployment, and registry publishing.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-05-13",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -18698,6 +21675,30 @@
     }
   },
   {
+    "id": "mercury-mcp",
+    "path": "skills/mercury-mcp",
+    "category": "uncategorized",
+    "name": "mercury-mcp",
+    "description": "Cheatsheet for the Mercury (proton) MCP tools. Use when connected to the Mercury MCP server to look up which mercury_* tool to call for messaging teammates, threads, tasks, automations, or admin team-graph edits.",
+    "risk": "critical",
+    "source": "community",
+    "date_added": "2026-05-19",
+    "plugin": {
+      "targets": {
+        "codex": "blocked",
+        "claude": "blocked"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [
+        "explicit_target_restriction"
+      ]
+    }
+  },
+  {
     "id": "mermaid-expert",
     "path": "skills/mermaid-expert",
     "category": "content",
@@ -18706,6 +21707,28 @@
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "mesh-memory",
+    "path": "skills/mesh-memory",
+    "category": "ai-ml",
+    "name": "mesh-memory",
+    "description": "Self-hosted semantic memory for AI agents via MCP. Save worklogs, decisions, and notes, then recall them across sessions by meaning, not keyword. Postgres + pgvector with auto-tagging.",
+    "risk": "safe",
+    "source": "dklymentiev/mesh-memory (MIT)",
+    "date_added": "2026-05-23",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -18838,6 +21861,28 @@
     "risk": "safe",
     "source": "community",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "minimalism",
+    "path": "skills/design-it/minimalism",
+    "category": "design-it",
+    "name": "minimalism",
+    "description": "Web and App implementation guide for the Minimalism design style. Trigger when the user wants simple layouts, lots of whitespace, few colors, and clear hierarchy.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": "2026-06-17",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -19028,6 +22073,28 @@
     }
   },
   {
+    "id": "moatmri",
+    "path": "skills/moatmri",
+    "category": "business",
+    "name": "moatmri",
+    "description": "Analyze AI disruption pressure across a business, map competitive exposure, and produce a 90-day defensive action plan.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-05-31",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "mobile-design",
     "path": "skills/mobile-design",
     "category": "mobile",
@@ -19116,6 +22183,30 @@
     }
   },
   {
+    "id": "mock-hunter",
+    "path": "skills/mock-hunter",
+    "category": "testing",
+    "name": "mock-hunter",
+    "description": "Audit a live web page in five phases (catalog, click, trace, classify, report) to identify mock data, hardcoded values, LLM-generated metrics, and broken endpoints. Outputs a markdown report with REAL/MOCK/LLM/HARDCODED/BROKEN/UNKNOWN verdicts per visible value.",
+    "risk": "critical",
+    "source": "community",
+    "date_added": "2026-05-07",
+    "plugin": {
+      "targets": {
+        "codex": "blocked",
+        "claude": "blocked"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [
+        "explicit_target_restriction"
+      ]
+    }
+  },
+  {
     "id": "modern-javascript-patterns",
     "path": "skills/modern-javascript-patterns",
     "category": "development",
@@ -19192,6 +22283,50 @@
     "risk": "none",
     "source": "community",
     "date_added": "2026-03-06",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "monochromatic-ui",
+    "path": "skills/design-it/monochromatic-ui",
+    "category": "design-it",
+    "name": "monochromatic-ui",
+    "description": "Web and App implementation guide for Monochromatic UI. Trigger when user wants a single-color palette, high elegance, and strict color discipline.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": "2026-06-17",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "monopoly",
+    "path": "skills/monopoly",
+    "category": "architecture",
+    "name": "monopoly",
+    "description": "MONOPOLY is a Senior System Design Engineer skill for architecting, reviewing, and scaling systems. Triggers on requests involving architecture, databases, scaling, microservices, or infrastructure design. Proactively engages to design resilient backend systems.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null,
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -19412,6 +22547,28 @@
     "risk": "none",
     "source": "community",
     "date_added": "2026-03-06",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "multi-agent-architect",
+    "path": "skills/multi-agent-architect",
+    "category": "ai-ml",
+    "name": "multi-agent-architect",
+    "description": "Design and optimize production-grade multi-agent systems with LangGraph, LangChain, and DeepAgents for complex AI workflows.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": null,
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -19756,6 +22913,28 @@
     }
   },
   {
+    "id": "neo-brutalism",
+    "path": "skills/design-it/neo-brutalism",
+    "category": "design-it",
+    "name": "neo-brutalism",
+    "description": "Web and App implementation guide for Neo-Brutalism. Trigger when user wants thick borders, hard shadows, bright colors, and a playful yet structured look.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": "2026-06-17",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "neon-postgres",
     "path": "skills/neon-postgres",
     "category": "database",
@@ -19910,6 +23089,28 @@
     }
   },
   {
+    "id": "neumorphism",
+    "path": "skills/design-it/neumorphism",
+    "category": "design-it",
+    "name": "neumorphism",
+    "description": "Web and App implementation guide for Neumorphism (Soft UI). Trigger when user wants soft shadows, extruded appearance, and light source simulation.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": "2026-06-17",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "new-rails-project",
     "path": "skills/new-rails-project",
     "category": "uncategorized",
@@ -19929,6 +23130,30 @@
         "docs": null
       },
       "reasons": []
+    }
+  },
+  {
+    "id": "news-sentiment-engine",
+    "path": "skills/news-sentiment-engine",
+    "category": "research",
+    "name": "news-sentiment-engine",
+    "description": "Multi-source RSS news aggregation with Claude-powered sentiment analysis and structured briefing output",
+    "risk": "critical",
+    "source": "community",
+    "date_added": "2026-05-13",
+    "plugin": {
+      "targets": {
+        "codex": "blocked",
+        "claude": "blocked"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [
+        "explicit_target_restriction"
+      ]
     }
   },
   {
@@ -19962,6 +23187,28 @@
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "nextjs-seo-indexing",
+    "path": "skills/nextjs-seo-indexing",
+    "category": "seo",
+    "name": "nextjs-seo-indexing",
+    "description": "Fix SEO indexing issues, crawl budget problems, and Search Console coverage errors for Next.js apps. Covers canonical tags, noindex audits, sitemap health, static rendering, and internal linking.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": "2026-05-31",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -20072,6 +23319,28 @@
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "not-a-vibe-coder",
+    "path": "skills/not-a-vibe-coder",
+    "category": "uncategorized",
+    "name": "not-a-vibe-coder",
+    "description": "Turns vague prompts into 8 structured planning files for brand new projects. DO NOT use on existing codebases.",
+    "risk": "critical",
+    "source": "unknown",
+    "date_added": null,
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -21057,6 +24326,28 @@
     }
   },
   {
+    "id": "open-dynamic-workflows",
+    "path": "skills/open-dynamic-workflows",
+    "category": "ai-agents",
+    "name": "open-dynamic-workflows",
+    "description": "Plan, orchestrate, and adversarially verify parallel AI coding agents with a dynamic multi-agent workflow engine.",
+    "risk": "critical",
+    "source": "community",
+    "date_added": "2026-06-06",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "openapi-spec-generation",
     "path": "skills/openapi-spec-generation",
     "category": "api-integration",
@@ -21087,6 +24378,28 @@
     "risk": "safe",
     "source": "community",
     "date_added": "2026-03-18",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "options-flow-analyzer",
+    "path": "skills/options-flow-analyzer",
+    "category": "finance",
+    "name": "options-flow-analyzer",
+    "description": "Real vs lottery call separation for options P/C ratio analysis \u2014 prevents signal inversion from deep OTM noise",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-05-13",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -21299,6 +24612,28 @@
     }
   },
   {
+    "id": "pagespeed-enhancer",
+    "path": "skills/pagespeed-enhancer",
+    "category": "uncategorized",
+    "name": "pagespeed-enhancer",
+    "description": "Scan, audit, and fix web performance issues across all four Lighthouse/PageSpeed Insights pillars \u2014 Performance, Accessibility, Best Practices, and SEO \u2014 in structured batches.",
+    "risk": "safe",
+    "source": "personal",
+    "date_added": "2026-06-14",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "paid-ads",
     "path": "skills/paid-ads",
     "category": "marketing",
@@ -21343,6 +24678,28 @@
     }
   },
   {
+    "id": "papers-skill",
+    "path": "skills/papers-skill",
+    "category": "research",
+    "name": "papers-skill",
+    "description": "Skill for academic research workflows: search Semantic Scholar (200M+ papers), inspect citations, download arXiv PDFs, and extract PDF text. Bundles a self-contained Python CLI.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-11",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "parallel-agents",
     "path": "skills/parallel-agents",
     "category": "ai-agents",
@@ -21351,6 +24708,28 @@
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "patterns",
+    "path": "skills/monopoly/patterns",
+    "category": "monopoly",
+    "name": "patterns",
+    "description": "Reference document for monopoly patterns.",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -21461,6 +24840,28 @@
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "pdf-conversion-router",
+    "path": "skills/pdf-conversion-router",
+    "category": "uncategorized",
+    "name": "pdf-conversion-router",
+    "description": "Use when converting a PDF into another format such as Markdown, HTML, text, JSON, DOCX, or structured notes and the agent must choose the best extraction route, settings, and cleanup strategy for maximum fidelity and readability.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-05-23",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -21651,6 +25052,28 @@
     }
   },
   {
+    "id": "permission-manager",
+    "path": "skills/permission-manager",
+    "category": "uncategorized",
+    "name": "permission-manager",
+    "description": "Manage opencode permissions: review always-allow lists, suggest safe read-only commands, configure permission patterns",
+    "risk": "critical",
+    "source": "community",
+    "date_added": "2026-06-05",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "personal-tool-builder",
     "path": "skills/personal-tool-builder",
     "category": "uncategorized",
@@ -21681,6 +25104,50 @@
     "risk": "safe",
     "source": "community",
     "date_added": "2026-03-28",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "photopea-embedded-editor",
+    "path": "skills/photopea-embedded-editor",
+    "category": "uncategorized",
+    "name": "photopea-embedded-editor",
+    "description": "Embed Photopea in web apps using photopea.js. Covers embedding, file I/O, scripting, exporting, layers, text, filters, and the full Photoshop-compatible API.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-05-20",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "php",
+    "path": "skills/super-code/php",
+    "category": "super-code",
+    "name": "php",
+    "description": "Language-specific super-code guidelines for php.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-16",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -21959,6 +25426,30 @@
     }
   },
   {
+    "id": "polis-protocol",
+    "path": "skills/polis-protocol",
+    "category": "orchestration",
+    "name": "polis-protocol",
+    "description": "Coordinate multi-vendor AI agents as a self-improving team \u2014 a learning router assigns work by track record and citizens can amend the protocol's own rules.",
+    "risk": "critical",
+    "source": "community",
+    "date_added": "2026-06-02",
+    "plugin": {
+      "targets": {
+        "codex": "blocked",
+        "claude": "blocked"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [
+        "explicit_target_restriction"
+      ]
+    }
+  },
+  {
     "id": "popup-cro",
     "path": "skills/popup-cro",
     "category": "marketing",
@@ -22165,6 +25656,28 @@
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "pr-merge-champion",
+    "path": "skills/pr-merge-champion",
+    "category": "workflow",
+    "name": "pr-merge-champion",
+    "description": "Optimize pull requests for quick approval and merging by ensuring clean diffs, comprehensive self-reviews, and structured documentation.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": "2026-06-16",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -22407,6 +25920,28 @@
     "risk": "unknown",
     "source": "https://github.com/coreyhaines31/marketingskills",
     "date_added": "2026-03-21",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "production-audit",
+    "path": "skills/production-audit",
+    "category": "security",
+    "name": "production-audit",
+    "description": "Audit a shipped repo for production-readiness gaps across RLS, webhooks, secrets, grants, Stripe idempotency, mobile UX, and deployment health.",
+    "risk": "critical",
+    "source": "community",
+    "date_added": "2026-05-04",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -22797,6 +26332,28 @@
     }
   },
   {
+    "id": "prototype",
+    "path": "skills/prototype",
+    "category": "development",
+    "name": "prototype",
+    "description": "Build a throwaway prototype to flesh out a design \u2014 a runnable terminal app for state/business-logic questions, or several radically different UI variations toggleable from one route.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-19",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "pubmed-database",
     "path": "skills/pubmed-database",
     "category": "backend",
@@ -22893,6 +26450,50 @@
     "risk": "safe",
     "source": "https://github.com/omkamal/pypict-claude-skill/blob/main/SKILL.md",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "python",
+    "path": "skills/super-code/python",
+    "category": "super-code",
+    "name": "python",
+    "description": "Language-specific super-code guidelines for python.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-16",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "python-development",
+    "path": "skills/python-development",
+    "category": "development",
+    "name": "python-development",
+    "description": "You are a Python project architecture expert specializing in scaffolding production-ready Python applications. Generate complete project structures with modern tooling (uv, FastAPI, Django), type hint (Alias for python-development-python-scaffold)",
+    "risk": "critical",
+    "source": "alias",
+    "date_added": "2026-06-02",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -23149,6 +26750,28 @@
     }
   },
   {
+    "id": "quinn",
+    "path": "skills/agent-squad/quinn",
+    "category": "agent-squad",
+    "name": "quinn",
+    "description": "Proves the system works by writing and executing comprehensive test suites.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-11",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "radix-ui-design-system",
     "path": "skills/radix-ui-design-system",
     "category": "web-development",
@@ -23391,6 +27014,28 @@
     }
   },
   {
+    "id": "react-native-skills",
+    "path": "skills/react-native-skills",
+    "category": "web-development",
+    "name": "react-native-skills",
+    "description": "Use when working with react-native-skills tasks or workflows",
+    "risk": "safe",
+    "source": "https://github.com/vercel-labs/agent-skills",
+    "date_added": "2026-06-02",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "react-nextjs-development",
     "path": "skills/react-nextjs-development",
     "category": "granular-workflow-bundle",
@@ -23531,6 +27176,50 @@
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "recsys-pipeline-architect",
+    "path": "skills/recsys-pipeline-architect",
+    "category": "data-ai",
+    "name": "recsys-pipeline-architect",
+    "description": "Designs composable recommendation, ranking, and feed pipelines using the six-stage Source\u2192Hydrator\u2192Filter\u2192Scorer\u2192Selector\u2192SideEffect framework",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-05-16",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "recursive-context-pruning-token-budgeting",
+    "path": "skills/recursive-context-pruning-token-budgeting",
+    "category": "prompt-engineering",
+    "name": "recursive-context-pruning-token-budgeting",
+    "description": "Optimizes AI agent performance by pruning redundant context, managing token usage, and enforcing ultra-concise, direct-to-value responses.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": "2026-05-03",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -23787,6 +27476,50 @@
     }
   },
   {
+    "id": "retro-design",
+    "path": "skills/design-it/retro-design",
+    "category": "design-it",
+    "name": "retro-design",
+    "description": "Web and App implementation guide for Retro Design (60s-80s). Trigger when user wants vintage aesthetics, warm muted colors, and nostalgic layouts.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": "2026-06-17",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "retro-futurism",
+    "path": "skills/design-it/retro-futurism",
+    "category": "design-it",
+    "name": "retro-futurism",
+    "description": "Web and App implementation guide for Retro Futurism. Trigger when user wants vintage future concepts, 1950s space age aesthetics, or atompunk vibes.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": "2026-06-17",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "returns-reverse-logistics",
     "path": "skills/returns-reverse-logistics",
     "category": "business",
@@ -23839,6 +27572,50 @@
     "risk": "unknown",
     "source": "https://github.com/coreyhaines31/marketingskills",
     "date_added": "2026-03-21",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "rex",
+    "path": "skills/agent-squad/rex",
+    "category": "agent-squad",
+    "name": "rex",
+    "description": "Translates user intent into a precise, unambiguous specification and requirements.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-11",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "rich-elicitation",
+    "path": "skills/rich-elicitation",
+    "category": "productivity",
+    "name": "rich-elicitation",
+    "description": "Asks clarifying questions in multiple rounds before starting ambiguous tasks. Fires when 2+ task dimensions each have 3+ viable answers.",
+    "risk": "none",
+    "source": "self",
+    "date_added": "2026-05-07",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -24007,6 +27784,28 @@
     }
   },
   {
+    "id": "ruby",
+    "path": "skills/super-code/ruby",
+    "category": "super-code",
+    "name": "ruby",
+    "description": "Language-specific super-code guidelines for ruby.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-16",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "ruby-pro",
     "path": "skills/ruby-pro",
     "category": "code",
@@ -24015,6 +27814,72 @@
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "runapi-cli",
+    "path": "skills/runapi-cli",
+    "category": "development",
+    "name": "runapi-cli",
+    "description": "Generate AI images, videos, and music/audio from agents using the RunAPI CLI.",
+    "risk": "critical",
+    "source": "official",
+    "date_added": "2026-06-07",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "runaway-guard",
+    "path": "skills/runaway-guard",
+    "category": "ai-ml",
+    "name": "runaway-guard",
+    "description": "Cost-safety discipline for paid AI / inference APIs: treat $-cost as a third complexity dimension alongside time and space. Forces a written per-run $-cap, per-day $-cap, max-iterations bound, concurrency limit, and a matching provider-dashboard hard cap BEFORE any call site is written.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-05-28",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "rust",
+    "path": "skills/super-code/rust",
+    "category": "super-code",
+    "name": "rust",
+    "description": "Language-specific super-code guidelines for rust.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-16",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -24315,6 +28180,28 @@
     }
   },
   {
+    "id": "scala",
+    "path": "skills/super-code/scala",
+    "category": "super-code",
+    "name": "scala",
+    "description": "Language-specific super-code guidelines for scala.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-16",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "scala-pro",
     "path": "skills/scala-pro",
     "category": "code",
@@ -24323,6 +28210,28 @@
     "risk": "safe",
     "source": "community",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "scale-benchmarks",
+    "path": "skills/monopoly/scale-benchmarks",
+    "category": "monopoly",
+    "name": "scale-benchmarks",
+    "description": "Reference document for monopoly scale-benchmarks.",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -24425,6 +28334,50 @@
     }
   },
   {
+    "id": "schema-markup-generator",
+    "path": "skills/schema-markup-generator",
+    "category": "seo",
+    "name": "schema-markup-generator",
+    "description": "Generate and implement JSON-LD structured data for web apps, blogs, FAQs, and SaaS sites. Supports WebSite, SoftwareApplication, BlogPosting, FAQPage, HowTo, and more.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": "2026-05-31",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "sci-fi-interface",
+    "path": "skills/design-it/sci-fi-interface",
+    "category": "design-it",
+    "name": "sci-fi-interface",
+    "description": "Web and App implementation guide for Sci-Fi Interface Design. Trigger when user wants HUDs, spacecraft dashboards, or tactical military readouts.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": "2026-06-17",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "scientific-writing",
     "path": "skills/scientific-writing",
     "category": "content",
@@ -24510,6 +28463,30 @@
         "docs": null
       },
       "reasons": []
+    }
+  },
+  {
+    "id": "screenstudio-alt",
+    "path": "skills/screenstudio-alt",
+    "category": "uncategorized",
+    "name": "screenstudio-alt",
+    "description": "Open-source headless Screen Studio alternative: auto speed-up of idle, auto-zoom on click clusters, keystroke overlay chips, smoothed synthetic cursor, and 9:16 vertical export that follows the action \u2014 post-production for screen recordings from the CLI.",
+    "risk": "critical",
+    "source": "community",
+    "date_added": "2026-06-16",
+    "plugin": {
+      "targets": {
+        "codex": "blocked",
+        "claude": "blocked"
+      },
+      "setup": {
+        "type": "manual",
+        "summary": "Screen/input capture requires sensitive local permissions; keep out of plugin-safe bundles.",
+        "docs": "SKILL.md"
+      },
+      "reasons": [
+        "explicit_target_restriction"
+      ]
     }
   },
   {
@@ -24652,6 +28629,28 @@
     "description": "Build a minimal but real security policy for sensitive apps. The output is a single, coherent Blue Book document using MUST/SHOULD/CAN language, with explicit assumptions, scope, and security gates.",
     "risk": "unknown",
     "source": "community",
+    "date_added": null,
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "security-checklist",
+    "path": "skills/monopoly/security-checklist",
+    "category": "monopoly",
+    "name": "security-checklist",
+    "description": "Reference document for monopoly security-checklist.",
+    "risk": "safe",
+    "source": "unknown",
     "date_added": null,
     "plugin": {
       "targets": {
@@ -24884,6 +28883,78 @@
         "docs": null
       },
       "reasons": []
+    }
+  },
+  {
+    "id": "sendblue-api",
+    "path": "skills/sendblue/sendblue-api",
+    "category": "api-integration",
+    "name": "sendblue-api",
+    "description": "Send and receive iMessage, SMS, and RCS from application code via the Sendblue HTTP API \u2014 text, media, group messages, send styles, reactions, typing indicators, status callbacks, and inbound webhooks.",
+    "risk": "critical",
+    "source": "community",
+    "date_added": "2026-05-22",
+    "plugin": {
+      "targets": {
+        "codex": "blocked",
+        "claude": "blocked"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [
+        "explicit_target_restriction"
+      ]
+    }
+  },
+  {
+    "id": "sendblue-cli",
+    "path": "skills/sendblue/sendblue-cli",
+    "category": "api-integration",
+    "name": "sendblue-cli",
+    "description": "Send iMessage and SMS from the shell via the @sendblue/cli npm package \u2014 outbound sends, contact management, and account setup with no API client or webhook server required.",
+    "risk": "critical",
+    "source": "community",
+    "date_added": "2026-05-22",
+    "plugin": {
+      "targets": {
+        "codex": "blocked",
+        "claude": "blocked"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [
+        "explicit_target_restriction"
+      ]
+    }
+  },
+  {
+    "id": "sendblue-notify",
+    "path": "skills/sendblue/sendblue-notify",
+    "category": "automation",
+    "name": "sendblue-notify",
+    "description": "Text the user's phone when a long-running task, agent turn, or scheduled job finishes \u2014 via @sendblue/cli for outbound, optionally wired to a Claude Code Stop hook for automatic fire.",
+    "risk": "critical",
+    "source": "community",
+    "date_added": "2026-05-22",
+    "plugin": {
+      "targets": {
+        "codex": "blocked",
+        "claude": "blocked"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [
+        "explicit_target_restriction"
+      ]
     }
   },
   {
@@ -25857,6 +29928,28 @@
     }
   },
   {
+    "id": "setup-matt-pocock-skills",
+    "path": "skills/setup-matt-pocock-skills",
+    "category": "development",
+    "name": "setup-matt-pocock-skills",
+    "description": "Configure this repo for the engineering skills \u2014 set up its issue tracker, triage label vocabulary, and domain doc layout. Run once before first use of the other engineering skills.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-19",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "sexual-health-analyzer",
     "path": "skills/sexual-health-analyzer",
     "category": "health",
@@ -25909,6 +30002,28 @@
     "risk": "safe",
     "source": "community",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "sharp-coder",
+    "path": "skills/sharp-coder",
+    "category": "uncategorized",
+    "name": "sharp-coder",
+    "description": "Two-layer performance skill combining disciplined THINK layer (surgical edits, simplicity) and terse SPEAK layer (caveman compression). Triggers on requests for brevity, token efficiency, or disciplined coding.\n",
+    "risk": "safe",
+    "source": "self",
+    "date_added": null,
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -26143,6 +30258,50 @@
     }
   },
   {
+    "id": "skeuomorphism",
+    "path": "skills/design-it/skeuomorphism",
+    "category": "design-it",
+    "name": "skeuomorphism",
+    "description": "Web and App implementation guide for Skeuomorphism. Trigger when user wants UI to mimic real-world objects, realistic textures, or physical metaphors.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": "2026-06-17",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "skill-audit",
+    "path": "skills/skill-audit",
+    "category": "security",
+    "name": "skill-audit",
+    "description": "Pre-install security scanner for AI agent skills. 7.5% of 14,706 skills are malicious. Audit before you trust.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-05-01",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "skill-check",
     "path": "skills/skill-check",
     "category": "development",
@@ -26279,6 +30438,30 @@
     }
   },
   {
+    "id": "skill-issue",
+    "path": "skills/skill-issue",
+    "category": "meta",
+    "name": "skill-issue",
+    "description": "Find out why a coding-agent skill won't fire \u2014 grade each SKILL.md A\u2013F on activation, simulate which skill a prompt triggers, and flag collisions where one silently shadows another.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-02",
+    "plugin": {
+      "targets": {
+        "codex": "blocked",
+        "claude": "blocked"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [
+        "target_specific_home_path"
+      ]
+    }
+  },
+  {
     "id": "skill-optimizer",
     "path": "skills/skill-optimizer",
     "category": "meta",
@@ -26401,6 +30584,28 @@
     "risk": "safe",
     "source": "community",
     "date_added": "2026-03-06",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "skill-suggester",
+    "path": "skills/skill-suggester",
+    "category": "meta",
+    "name": "skill-suggester",
+    "description": "Scan prompt history for recurring patterns and unmet needs, then propose new skills or command templates",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-05",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -26593,6 +30798,28 @@
     }
   },
   {
+    "id": "smart-git-automation",
+    "path": "skills/smart-git-automation",
+    "category": "automation",
+    "name": "smart-git-automation",
+    "description": "Smart change detection, auto branch naming, and streamlined commit/PR workflow",
+    "risk": "critical",
+    "source": "community",
+    "date_added": "2026-06-05",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "smtp-penetration-testing",
     "path": "skills/smtp-penetration-testing",
     "category": "security",
@@ -26645,6 +30872,28 @@
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "social-metadata-hardening",
+    "path": "skills/social-metadata-hardening",
+    "category": "seo",
+    "name": "social-metadata-hardening",
+    "description": "Fix social sharing previews so URLs render as rich cards on Facebook, LinkedIn, X/Twitter, WhatsApp, Telegram, and more. Covers OG tags, Twitter cards, absolute image URLs, and debugging.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": "2026-05-31",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -26725,6 +30974,52 @@
     }
   },
   {
+    "id": "socialclaw",
+    "path": "skills/socialclaw",
+    "category": "marketing",
+    "name": "socialclaw",
+    "description": "Agent-first social media publishing skill \u2014 schedule and publish posts across 13 platforms (X, LinkedIn, Instagram, Facebook Pages, TikTok, Discord, Telegram, YouTube, Reddit, WordPress, Pinterest) via a single workspace API key.",
+    "risk": "critical",
+    "source": "community",
+    "date_added": "2026-05-25",
+    "plugin": {
+      "targets": {
+        "codex": "blocked",
+        "claude": "blocked"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [
+        "explicit_target_restriction"
+      ]
+    }
+  },
+  {
+    "id": "soft-pastel",
+    "path": "skills/design-it/soft-pastel",
+    "category": "design-it",
+    "name": "soft-pastel",
+    "description": "Web and App implementation guide for Soft Pastel Design. Trigger when user wants gentle colors, calming UI, baby/lifestyle branding, or low-contrast aesthetics.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": "2026-06-17",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "software-architecture",
     "path": "skills/software-architecture",
     "category": "architecture",
@@ -26777,6 +31072,50 @@
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "spatial-computing-ui",
+    "path": "skills/design-it/spatial-computing-ui",
+    "category": "design-it",
+    "name": "spatial-computing-ui",
+    "description": "Web and App implementation guide for Spatial Computing UI. Trigger when user wants floating elements, environmental awareness, and Apple Vision Pro style.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": "2026-06-17",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "spatial-design",
+    "path": "skills/design-it/spatial-design",
+    "category": "design-it",
+    "name": "spatial-design",
+    "description": "Web and App implementation guide for Spatial Design. Trigger when user wants environment-aware layouts, Apple Vision Pro inspiration, and mixed reality aesthetics.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": "2026-06-17",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -27431,6 +31770,28 @@
     }
   },
   {
+    "id": "subagent-orchestrator",
+    "path": "skills/subagent-orchestrator",
+    "category": "uncategorized",
+    "name": "subagent-orchestrator",
+    "description": "Coordinate quota-aware parallel subagents for large, multi-file Antigravity tasks.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": null,
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "subject-line-psychologist",
     "path": "skills/subject-line-psychologist",
     "category": "uncategorized",
@@ -27461,6 +31822,28 @@
     "risk": "critical",
     "source": "community",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "super-code",
+    "path": "skills/super-code",
+    "category": "uncategorized",
+    "name": "super-code",
+    "description": "Standing house style to enforce dense, correct, and idiomatic code on all coding tasks. Minimizes code bloat and agent operation overhead.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-16",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -27519,6 +31902,28 @@
     }
   },
   {
+    "id": "survey-generator",
+    "path": "skills/survey-generator",
+    "category": "research",
+    "name": "survey-generator",
+    "description": "Generate source-backed AI/ML survey paper artifacts with curated bibliographies and Fireworks/Kimi HTML rendering.",
+    "risk": "safe",
+    "source": "official",
+    "date_added": "2026-06-19",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "sveltekit",
     "path": "skills/sveltekit",
     "category": "frontend",
@@ -27527,6 +31932,28 @@
     "risk": "safe",
     "source": "community",
     "date_added": "2026-03-18",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "swift",
+    "path": "skills/super-code/swift",
+    "category": "super-code",
+    "name": "swift",
+    "description": "Language-specific super-code guidelines for swift.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-16",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -27673,6 +32100,28 @@
     }
   },
   {
+    "id": "swiss-design",
+    "path": "skills/design-it/swiss-design",
+    "category": "design-it",
+    "name": "swiss-design",
+    "description": "Web and App implementation guide for Swiss Design (International Typographic Style). Trigger when user wants strict grid systems, strong typography, and clean, asymmetrical alignment.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": "2026-06-17",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "sympy",
     "path": "skills/sympy",
     "category": "science",
@@ -27681,6 +32130,28 @@
     "risk": "unknown",
     "source": "https://github.com/sympy/sympy",
     "date_added": null,
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "synthwave",
+    "path": "skills/design-it/synthwave",
+    "category": "design-it",
+    "name": "synthwave",
+    "description": "Web and App implementation guide for Synthwave. Trigger when user wants 80s-inspired neon, dark backgrounds, outrun grids, and Miami Vice aesthetics.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": "2026-06-17",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -27871,6 +32342,28 @@
     }
   },
   {
+    "id": "tdd",
+    "path": "skills/tdd",
+    "category": "development",
+    "name": "tdd",
+    "description": "Test-driven development. Use when the user wants to build features or fix bugs test-first, mentions \"red-green-refactor\", or wants integration tests.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-19",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "tdd-orchestrator",
     "path": "skills/tdd-orchestrator",
     "category": "testing",
@@ -27901,6 +32394,28 @@
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "tdd-workflows",
+    "path": "skills/tdd-workflows",
+    "category": "testing",
+    "name": "tdd-workflows",
+    "description": "Use when working with tdd workflows tdd cycle (Alias for tdd-workflows-tdd-cycle)",
+    "risk": "unknown",
+    "source": "alias",
+    "date_added": "2026-06-02",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -28003,6 +32518,28 @@
     }
   },
   {
+    "id": "teach",
+    "path": "skills/teach",
+    "category": "education",
+    "name": "teach",
+    "description": "Teach the user a new skill or concept, within this workspace.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-19",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "team-collaboration-issue",
     "path": "skills/team-collaboration-issue",
     "category": "project-management",
@@ -28055,6 +32592,28 @@
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "tech-matrix",
+    "path": "skills/monopoly/tech-matrix",
+    "category": "monopoly",
+    "name": "tech-matrix",
+    "description": "Reference document for monopoly tech-matrix.",
+    "risk": "safe",
+    "source": "unknown",
+    "date_added": null,
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -28487,6 +33046,30 @@
     }
   },
   {
+    "id": "textme",
+    "path": "skills/sendblue/textme",
+    "category": "automation",
+    "name": "textme",
+    "description": "Text Claude from your phone \u2014 set up the njerschow/textme daemon so inbound iMessages drive a Claude Code session on your laptop, with voice notes, image input, code execution, and a phone-number whitelist.",
+    "risk": "critical",
+    "source": "community",
+    "date_added": "2026-05-26",
+    "plugin": {
+      "targets": {
+        "codex": "blocked",
+        "claude": "blocked"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [
+        "explicit_target_restriction"
+      ]
+    }
+  },
+  {
     "id": "theme-factory",
     "path": "skills/theme-factory",
     "category": "design",
@@ -28817,6 +33400,28 @@
     }
   },
   {
+    "id": "tile-design",
+    "path": "skills/design-it/tile-design",
+    "category": "design-it",
+    "name": "tile-design",
+    "description": "Web and App implementation guide for Tile Design. Trigger when user wants Microsoft Metro style, sharp square information units, and horizontal scrolling grids.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": "2026-06-17",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "tmux",
     "path": "skills/tmux",
     "category": "development",
@@ -28825,6 +33430,50 @@
     "risk": "safe",
     "source": "community",
     "date_added": "2026-03-28",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "to-issues",
+    "path": "skills/to-issues",
+    "category": "project-management",
+    "name": "to-issues",
+    "description": "Break a plan, spec, or PRD into independently-grabbable issues on the project issue tracker using tracer-bullet vertical slices.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-19",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "to-prd",
+    "path": "skills/to-prd",
+    "category": "project-management",
+    "name": "to-prd",
+    "description": "Turn the current conversation into a PRD and publish it to the project issue tracker \u2014 no interview, just synthesis of what you've already discussed.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-19",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -28861,6 +33510,30 @@
     }
   },
   {
+    "id": "tokenwise",
+    "path": "skills/tokenwise",
+    "category": "developer-tools",
+    "name": "tokenwise",
+    "description": "Measurement-driven model router for Claude Code. Routes Haiku/Sonnet/Opus per task class, logs every routed task with real $ numbers, and A/B tests cheaper tiers before you trust the savings.",
+    "risk": "critical",
+    "source": "community",
+    "date_added": "2026-05-12",
+    "plugin": {
+      "targets": {
+        "codex": "blocked",
+        "claude": "blocked"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [
+        "explicit_target_restriction"
+      ]
+    }
+  },
+  {
     "id": "tool-design",
     "path": "skills/tool-design",
     "category": "ai-ml",
@@ -28891,6 +33564,28 @@
     "risk": "safe",
     "source": "community",
     "date_added": "2026-03-13",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "tools-page-seo-optimizer",
+    "path": "skills/tools-page-seo-optimizer",
+    "category": "seo",
+    "name": "tools-page-seo-optimizer",
+    "description": "Framework-agnostic SEO workflow for any site with multiple tool, product, or feature pages. Covers duplicate content, unique meta tags, heading hierarchy, internal linking, URL slugs, E-E-A-T, content registry pattern for scaling 50\u2013500 pages, and blog content strategy for position 50\u201368 keywords.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-19",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -29001,6 +33696,28 @@
     "risk": "critical",
     "source": "community",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "triage",
+    "path": "skills/triage",
+    "category": "development",
+    "name": "triage",
+    "description": "Move issues and external PRs through a state machine of triage roles \u2014 categorise, verify, grill if needed, and write agent-ready briefs.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-19",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -29169,6 +33886,28 @@
     }
   },
   {
+    "id": "typescript",
+    "path": "skills/super-code/typescript",
+    "category": "super-code",
+    "name": "typescript",
+    "description": "Language-specific super-code guidelines for typescript.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-16",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "typescript-advanced-types",
     "path": "skills/typescript-advanced-types",
     "category": "code",
@@ -29221,6 +33960,28 @@
     "risk": "safe",
     "source": "community",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "typography-first",
+    "path": "skills/design-it/typography-first",
+    "category": "design-it",
+    "name": "typography-first",
+    "description": "Web and App implementation guide for Typography First Design. Trigger when user wants text as the absolute main visual element, with minimal UI chroming.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": "2026-06-17",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -29543,6 +34304,28 @@
     }
   },
   {
+    "id": "unity-ai-game-creator",
+    "path": "skills/unity-ai-game-creator",
+    "category": "game-development",
+    "name": "unity-ai-game-creator",
+    "description": "Transform raw game ideas into complete Unity projects with AI-powered asset generation, scene blueprints, music/SFX prompts, and step-by-step development procedures using Unity 6+ and modern AI tools.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-05-08",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "unity-developer",
     "path": "skills/unity-developer",
     "category": "game-development",
@@ -29606,6 +34389,30 @@
         "docs": null
       },
       "reasons": []
+    }
+  },
+  {
+    "id": "unship",
+    "path": "skills/unship",
+    "category": "development",
+    "name": "unship",
+    "description": "Compare AI agent-made UI variants locally in a real app, then keep one and clean up unused temporary code.",
+    "risk": "critical",
+    "source": "community",
+    "date_added": "2026-06-07",
+    "plugin": {
+      "targets": {
+        "codex": "blocked",
+        "claude": "blocked"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [
+        "explicit_target_restriction"
+      ]
     }
   },
   {
@@ -29683,6 +34490,28 @@
     "risk": "unknown",
     "source": "vibeship-spawner-skills (Apache 2.0)",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "user-thoughts",
+    "path": "skills/user-thoughts",
+    "category": "web-development",
+    "name": "user-thoughts",
+    "description": "Persist user decisions and project constraints to mdbase across sessions. Trigger on /user-thoughts or /ustht, or when the user discusses architecture, tech stack, rules, UI/UX, or project memory.",
+    "risk": "safe",
+    "source": "https://github.com/JularDepick/user-thoughts.SKILL",
+    "date_added": "2026-05-31",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -29919,6 +34748,28 @@
     }
   },
   {
+    "id": "vaporwave",
+    "path": "skills/design-it/vaporwave",
+    "category": "design-it",
+    "name": "vaporwave",
+    "description": "Web and App implementation guide for Vaporwave. Trigger when user wants neon colors, retro digital aesthetics, 90s OS elements, and Roman statues.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": "2026-06-17",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "variant-analysis",
     "path": "skills/variant-analysis",
     "category": "uncategorized",
@@ -30075,6 +34926,28 @@
     }
   },
   {
+    "id": "vercel-cli-with-tokens",
+    "path": "skills/vercel-cli-with-tokens",
+    "category": "uncategorized",
+    "name": "vercel-cli-with-tokens",
+    "description": "Deploy and manage projects on Vercel using token-based authentication. Use when working with Vercel CLI using access tokens rather than interactive login \u2014 e.g. \"deploy to vercel\", \"set up vercel\", \"add environment variables to vercel\".",
+    "risk": "safe",
+    "source": "https://github.com/vercel-labs/agent-skills",
+    "date_added": "2026-06-02",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "vercel-deployment",
     "path": "skills/vercel-deployment",
     "category": "uncategorized",
@@ -30083,6 +34956,50 @@
     "risk": "safe",
     "source": "vibeship-spawner-skills (Apache 2.0)",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "vercel-optimize",
+    "path": "skills/vercel-optimize",
+    "category": "uncategorized",
+    "name": "vercel-optimize",
+    "description": "Audit deployed Vercel apps for cost and performance issues using metrics, project config, code scans, and version-aware recommendations.",
+    "risk": "safe",
+    "source": "https://github.com/vercel-labs/agent-skills",
+    "date_added": "2026-06-02",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "vercel-react-view-transitions",
+    "path": "skills/vercel-react-view-transitions",
+    "category": "web-development",
+    "name": "vercel-react-view-transitions",
+    "description": "Guide React and Next.js view transitions, shared element animations, route transitions, transition types, and reduced-motion-safe UI state animation.",
+    "risk": "safe",
+    "source": "https://github.com/vercel-labs/agent-skills",
+    "date_added": "2026-06-02",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -30185,6 +35102,50 @@
     }
   },
   {
+    "id": "vibe-code-cleanup",
+    "path": "skills/vibe-code-cleanup",
+    "category": "fullstack",
+    "name": "vibe-code-cleanup",
+    "description": "Safe production cleanup and hardening for vibe-coded fullstack apps (Next.js, React, Node.js, etc.). Removes dead imports, unused files, and broken references without breaking routes or APIs.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": "2026-05-31",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "vibecode-production-qa-validator",
+    "path": "skills/vibecode-production-qa-validator",
+    "category": "devops",
+    "name": "vibecode-production-qa-validator",
+    "description": "13-phase production QA for fullstack Next.js apps: build verification, SEO tags, OG images, favicon, route regression, API auth, page speed, lazy load, vulnerability scan, UI/UX cards, error boundaries, database, secure rendering, and cleanup.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": "2026-05-31",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "vibers-code-review",
     "path": "skills/vibers-code-review",
     "category": "code-quality",
@@ -30215,6 +35176,50 @@
     "risk": "safe",
     "source": "community",
     "date_added": "2026-03-29",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "vibrant-maximalism",
+    "path": "skills/design-it/vibrant-maximalism",
+    "category": "design-it",
+    "name": "vibrant-maximalism",
+    "description": "Web and App implementation guide for Vibrant Maximalism. Trigger when user wants rich colors, dense layouts, extreme sensory input, and \"more is more\".",
+    "risk": "safe",
+    "source": "self",
+    "date_added": "2026-06-17",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "video-content-extractor",
+    "path": "skills/video-content-extractor",
+    "category": "media-processing",
+    "name": "video-content-extractor",
+    "description": "Extract key frames from MP4 videos at configurable intervals, run Tesseract OCR, and generate structured Markdown reports with video metadata and timestamped text transcripts.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-06",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -30581,6 +35586,28 @@
     }
   },
   {
+    "id": "web-media-getter",
+    "path": "skills/web-media-getter",
+    "category": "uncategorized",
+    "name": "web-media-getter",
+    "description": "One query across free image / video / GIF APIs (stock + historical/archival + GIF engines), returning normalized, license-tagged results with optional top-K download + attribution sidecar. The retrieval peer to local semantic search and generative media.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-16",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "web-performance-optimization",
     "path": "skills/web-performance-optimization",
     "category": "front-end",
@@ -30713,6 +35740,28 @@
     }
   },
   {
+    "id": "wechat-official-account-strategist",
+    "path": "skills/wechat-official-account-strategist",
+    "category": "marketing",
+    "name": "wechat-official-account-strategist",
+    "description": "Grow WeChat Official Accounts (\u5fae\u4fe1\u516c\u4f17\u53f7) with high-conversion content strategy, title formulas, article architecture, and Mini-Program integration.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-05-13",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "weightloss-analyzer",
     "path": "skills/weightloss-analyzer",
     "category": "health",
@@ -30801,6 +35850,28 @@
     }
   },
   {
+    "id": "widget-based-design",
+    "path": "skills/design-it/widget-based-design",
+    "category": "design-it",
+    "name": "widget-based-design",
+    "description": "Web and App implementation guide for Widget-Based Design. Trigger when user wants modular blocks, iOS Home Screen aesthetics, and customizable mini-apps.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": "2026-06-17",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "wiki-architect",
     "path": "skills/wiki-architect",
     "category": "content",
@@ -30809,6 +35880,28 @@
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "wiki-builder",
+    "path": "skills/wiki-builder",
+    "category": "knowledge-management",
+    "name": "wiki-builder",
+    "description": "Create and maintain reusable research wikis with source provenance, configurable structure, and local markdown outputs.",
+    "risk": "safe",
+    "source": "official",
+    "date_added": "2026-06-19",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -31047,7 +36140,7 @@
     "path": "skills/wordpress-centric-high-seo-optimized-blogwriting-skill",
     "category": "content",
     "name": "wordpress-centric-high-seo-optimized-blogwriting-skill",
-    "description": "Create long-form, high-quality, SEO-optimized blog posts ready for WordPress with truth boxes and FAQ schema.",
+    "description": "Generate clean, human-sounding, SEO-optimized WordPress blog posts with optional Yoast metadata, JSON-LD schema markup, and image SEO planning. Supports modular batch output.",
     "risk": "safe",
     "source": "self",
     "date_added": "2026-04-12",
@@ -31263,6 +36356,28 @@
     }
   },
   {
+    "id": "writing-great-skills",
+    "path": "skills/writing-great-skills",
+    "category": "skill-authoring",
+    "name": "writing-great-skills",
+    "description": "Reference for writing and editing skills well \u2014 the vocabulary and principles that make a skill predictable.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-19",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "writing-plans",
     "path": "skills/writing-plans",
     "category": "planning",
@@ -31333,10 +36448,34 @@
     "path": "skills/x-twitter-scraper",
     "category": "data",
     "name": "x-twitter-scraper",
-    "description": "X (Twitter) data platform skill \u2014 tweet search, user lookup, follower extraction, engagement metrics, giveaway draws, monitoring, webhooks, 19 extraction tools, MCP server.",
-    "risk": "safe",
+    "description": "X/Twitter automation skill for tweet search, follower export, posting, DMs, webhooks, MCP, SDKs, Hermes Tweet, and TweetClaw.",
+    "risk": "critical",
     "source": "community",
     "date_added": "2026-02-28",
+    "plugin": {
+      "targets": {
+        "codex": "blocked",
+        "claude": "blocked"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": [
+        "explicit_target_restriction"
+      ]
+    }
+  },
+  {
+    "id": "x402-express-wrapper",
+    "path": "skills/x402-express-wrapper",
+    "category": "backend",
+    "name": "x402-express-wrapper",
+    "description": "Wrapper oficial de M2MCent (Node.js) para inyectar muros de pago x402 en APIs o servidores Model Context Protocol (MCP). Usar al construir nuevos servicios que requieran monetizaci\u00f3n m\u00e1quina a m\u00e1quina.",
+    "risk": "critical",
+    "source": "community",
+    "date_added": null,
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -31351,14 +36490,14 @@
     }
   },
   {
-    "id": "x402-express-wrapper",
-    "path": "skills/x402-express-wrapper",
-    "category": "backend",
-    "name": "x402-express-wrapper",
-    "description": "Wrapper oficial de M2MCent (Node.js) para inyectar muros de pago x402 en APIs o servidores Model Context Protocol (MCP). Usar al construir nuevos servicios que requieran monetizaci\u00f3n m\u00e1quina a m\u00e1quina.",
-    "risk": "critical",
+    "id": "xiaohongshu-content-strategist",
+    "path": "skills/xiaohongshu-content-strategist",
+    "category": "marketing",
+    "name": "xiaohongshu-content-strategist",
+    "description": "Create viral Xiaohongshu (\u5c0f\u7ea2\u4e66) content with platform-native strategy, save-rate optimization, trending formats, and search SEO for China's #1 lifestyle platform.",
+    "risk": "safe",
     "source": "community",
-    "date_added": null,
+    "date_added": "2026-05-13",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -31425,6 +36564,28 @@
     "risk": "safe",
     "source": "community",
     "date_added": "2026-03-23",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "y2k-design",
+    "path": "skills/design-it/y2k-design",
+    "category": "design-it",
+    "name": "y2k-design",
+    "description": "Web and App implementation guide for Y2K Design. Trigger when user wants chrome effects, futuristic 2000s look, blob shapes, and tech optimism.",
+    "risk": "safe",
+    "source": "self",
+    "date_added": "2026-06-17",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -31527,6 +36688,28 @@
     }
   },
   {
+    "id": "yao-meta-skill",
+    "path": "skills/yao-meta-skill",
+    "category": "skill-authoring",
+    "name": "yao-meta-skill",
+    "description": "Create, refactor, evaluate, and package agent skills from workflows, prompts, transcripts, docs, or notes. Use for skill creation, reusable workflow packaging, skill improvement, evals, and team-ready distribution.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-19",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "yes-md",
     "path": "skills/yes-md",
     "category": "uncategorized",
@@ -31549,6 +36732,28 @@
     }
   },
   {
+    "id": "yield-intelligence",
+    "path": "skills/yield-intelligence",
+    "category": "uncategorized",
+    "name": "yield-intelligence",
+    "description": "Passive income portfolio analysis \u2014 activate when user asks about dividend yields, Treasury rates, REIT income, monthly passive income goals, or portfolio yield optimization. Scans 4 asset classes, ranks by risk-adjusted return, and builds allocations targeting a specific monthly income.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-05-31",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
     "id": "youtube-automation",
     "path": "skills/youtube-automation",
     "category": "marketing",
@@ -31557,6 +36762,72 @@
     "risk": "critical",
     "source": "community",
     "date_added": "2026-02-27",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "youtube-full",
+    "path": "skills/youtube-full",
+    "category": "api-integration",
+    "name": "youtube-full",
+    "description": "Fetch YouTube transcripts, search videos, browse channels, and extract playlists via TranscriptAPI \u2014 no yt-dlp, no Google API key, works from any cloud server.",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-05-29",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "TranscriptAPI OAuth provisions the API key on first skill invocation. No manual credential setup. 100 free credits included.",
+        "docs": "https://transcriptapi.com/docs"
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "youtube-notetaker",
+    "path": "skills/youtube-notetaker",
+    "category": "video",
+    "name": "youtube-notetaker",
+    "description": "Turn YouTube talks into local study notes with slides, transcripts, editable annotations, and a markdown-backed viewer.",
+    "risk": "safe",
+    "source": "official",
+    "date_added": "2026-06-19",
+    "plugin": {
+      "targets": {
+        "codex": "supported",
+        "claude": "supported"
+      },
+      "setup": {
+        "type": "none",
+        "summary": "",
+        "docs": null
+      },
+      "reasons": []
+    }
+  },
+  {
+    "id": "youtube-seo-optimizer",
+    "path": "skills/youtube-seo-optimizer",
+    "category": "content",
+    "name": "youtube-seo-optimizer",
+    "description": "Generate complete YouTube & podcast SEO packages with live-researched keywords \u2014 titles, descriptions, tags, hashtags, chapters, and audit fixes. Use for new or underperforming content.\n",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-06-15",
     "plugin": {
       "targets": {
         "codex": "supported",
@@ -31663,7 +36934,7 @@
     "path": "skills/zipai-optimizer",
     "category": "agent-behavior",
     "name": "zipai-optimizer",
-    "description": "Adaptive token optimizer: intelligent filtering, surgical output, ambiguity-first, context-window-aware, VCS-aware, MCP-aware.",
+    "description": "Ultra-dense token optimizer skill for prompt caching, log pruning, AST-based inspection, and minified JSON payloads.",
     "risk": "safe",
     "source": "community",
     "date_added": null,
